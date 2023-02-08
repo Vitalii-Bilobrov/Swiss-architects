@@ -6,28 +6,28 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { data1 } from '../components/data/data';
+import { data1 } from '../../components/data/data1';
+import css from './Slider.module.css';
 
 import './styles.css';
 import { Navigation } from 'swiper';
 
 export default function Slider() {
   const { projectName } = useParams();
-
-  const house = data1.filter(e => e.projectName === projectName);
-
+  const house = data1.find(e => e.projectName === projectName);
   return (
-    <>
-      <h3>{projectName}</h3>
+    <div className={css.sliderBody}>
+      <h2 className={css.projectName}>{house.author}</h2>
+      <h3 className={css.projectName}>{projectName}</h3>
 
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-        {house[0].photos.map(photo => (
+        {house.photos.map(photo => (
           <SwiperSlide key={nanoid()}>
-            <img src={photo} alt="fff" />
+            <img className={css.photo} src={photo} alt="fff" />
           </SwiperSlide>
         ))}
       </Swiper>
-      <div>{house[0].text}</div>
-    </>
+      <div className={css.projectText}>{house.text}</div>
+    </div>
   );
 }

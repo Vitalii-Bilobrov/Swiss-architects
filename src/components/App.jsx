@@ -1,31 +1,59 @@
-import { Bernardazzi } from 'pages/Bernardazzi';
-import Torricelli from 'pages/Torricelli ';
-import Home from 'pages/Home';
-import { Link, Route, Routes } from 'react-router-dom';
-import Slider from 'pages/Slider';
+import { Bernardazzi } from 'pages/Bernardazzi/Bernardazzi';
+import { Torricelli } from 'pages/Torricelli/Torricelli ';
+import Home from 'pages/Home/Home';
+import { Link, Route, Routes, useParams } from 'react-router-dom';
+import Slider from 'pages/Slider/Slider';
+import { data1 } from './data/data1';
+import { useState } from 'react';
+import css from './App.module.css';
 
 export const App = () => {
+  const { projectName } = useParams();
+  const [selectedArchitect, setSelectedArchitect] = useState(
+    data1.find(architect => architect.id === projectName) || data1[0]
+  );
   return (
-    <div>
-      <header>
-        <nav>
-          <Link to="/" end>
+    <div className={css.wrapper}>
+      <header className={css.header}>
+        <nav className={css.nav}>
+          <Link className={css.navlink} to="/" end>
             Главная
           </Link>
-          <Link to="/Bernardazzi">Бернардацци</Link>
-          <Link to="/Torricelli">Торичелли</Link>
+          <Link
+            className={css.navlink}
+            onClick={() => setSelectedArchitect('Bernardazzi')}
+            to="/Bernardazzi"
+          >
+            Бернардацци
+          </Link>
+          <Link
+            className={css.navlink}
+            onClick={() => setSelectedArchitect('Torricelli')}
+            to="/Torricelli"
+          >
+            Торичелли
+          </Link>
         </nav>
       </header>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Bernardazzi" element={<Bernardazzi />} />
-        <Route path="/Bernardazzi/:projectName" element={<Slider />} />
-        {/* <Route path="*" element={<NotFound />} /> */}
-        <Route path="/Torricelli " element={<Torricelli />} />
-      </Routes>
-      <footer>
-        <div>
-          2021 @ Made by <a href="https://starter.ooo/">Starter</a>
+      <main className={css.content}>
+        <Routes>
+          <Route path="*" element={<Home />} />
+          <Route
+            path="/Bernardazzi"
+            element={<Bernardazzi selectedArchitect={selectedArchitect} />}
+          />
+          <Route path="/Bernardazzi/:projectName" element={<Slider />} />
+          <Route path="/Torricelli/:projectName" element={<Slider />} />
+          {/* <Route path="*" element={<NotFound />} /> */}
+          <Route path="/Torricelli" element={<Torricelli />} />
+        </Routes>
+      </main>
+      <footer className={css.footer}>
+        <div className={css.footerText}>
+          2021 @ Made by{' '}
+          <a className={css.navlink} href="https://starter.ooo/">
+            Starter
+          </a>
         </div>
       </footer>
     </div>

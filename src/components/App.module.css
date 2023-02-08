@@ -1,0 +1,40 @@
+.header {
+  padding: 15px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(230, 74, 74, 0.5914740896358543) 52%,
+    rgba(255, 0, 0, 1) 100%
+  );
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.navlink {
+  color: white;
+}
+.content {
+  min-height: calc(100vh - 80px);
+  background-color: white;
+}
+.footer {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(230, 74, 74, 0.5914740896358543) 52%,
+    rgba(255, 0, 0, 1) 100%
+  );
+  color: gray;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border-top: 1px solid gray;
+}
+.footerText {
+  color: black;
+}

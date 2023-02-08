@@ -1,0 +1,19 @@
+.sliderBody {
+  padding: 10px;
+}
+.projectName {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.projectText {
+  margin-top: 10px;
+
+  height: 250px;
+  overflow-y: scroll;
+}
+.photo {
+  float: left;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}

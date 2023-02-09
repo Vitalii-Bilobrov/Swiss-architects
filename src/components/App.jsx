@@ -6,6 +6,7 @@ import Slider from 'pages/Slider/Slider';
 import { data1 } from './data/data1';
 import { useState } from 'react';
 import css from './App.module.css';
+import Logo from 'images/swiss.svg';
 
 export const App = () => {
   const { projectName } = useParams();
@@ -16,8 +17,8 @@ export const App = () => {
     <div className={css.wrapper}>
       <header className={css.header}>
         <nav className={css.nav}>
-          <Link className={css.navlink} to="/" end>
-            Главная
+          <Link className={css.navLogo} to="/" end>
+            <img src={Logo} alt="Logo" />
           </Link>
           <Link
             className={css.navlink}
@@ -35,7 +36,7 @@ export const App = () => {
           </Link>
         </nav>
       </header>
-      <main className={css.content}>
+      <body className={css.content}>
         <Routes>
           <Route path="*" element={<Home />} />
           <Route
@@ -47,10 +48,10 @@ export const App = () => {
           {/* <Route path="*" element={<NotFound />} /> */}
           <Route path="/Torricelli" element={<Torricelli />} />
         </Routes>
-      </main>
+      </body>
       <footer className={css.footer}>
         <div className={css.footerText}>
-          2021 @ Made by{' '}
+          2023 @ Made by{' '}
           <a className={css.navlink} href="https://starter.ooo/">
             Starter
           </a>

@@ -5,6 +5,7 @@ import css from './Home.module.css';
 import flag from 'images/flag.jpg';
 import Bernardazzi_img from 'images/Bernardazzi.jpg';
 import Torricelli_img from 'images/Torricelli.jpg';
+import Logo from 'images/swiss.svg';
 export default function Home() {
   return (
     <div>

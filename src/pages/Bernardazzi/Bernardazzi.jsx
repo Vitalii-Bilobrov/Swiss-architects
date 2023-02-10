@@ -1,14 +1,22 @@
 import { data1 } from 'components/data/data1';
 import { Link } from 'react-router-dom';
 import css from './Bernardazzi.module.css';
+import Bernardazzi_img from 'images/Bernardazzi.jpg';
 
 export const Bernardazzi = ({ setSelectedArchitect }) => {
   const houses = data1.filter(e => e.id === 'Bernardazzi');
   return (
-    <main>
+    <div className={css.archSection}>
       <h2 className={css.archName}>
         Бернардацци<br></br> Александр Иосифович
       </h2>
+      <div>
+        <img
+          className={css.arch_img}
+          src={Bernardazzi_img}
+          alt="Bernardazzi_img"
+        />
+      </div>
       <div className={css.biographi}>
         Александр Бернардацци родился в Пятигорске в 1831 году. Сын архитектора
         Иосифа Карловича Бернардацци, уроженца Швейцарии, участника
@@ -39,6 +47,6 @@ export const Bernardazzi = ({ setSelectedArchitect }) => {
           ))}
         </ul>
       </div>
-    </main>
+    </div>
   );
 };

@@ -14,41 +14,44 @@ export const App = () => {
     data1.find(architect => architect.id === projectName) || data1[0]
   );
   return (
-    <div className={css.wrapper}>
-      <header className={css.header}>
-        <nav className={css.nav}>
-          <Link className={css.navLogo} to="/" end>
-            <img src={Logo} alt="Logo" />
-          </Link>
-          <Link
-            className={css.navlink}
-            onClick={() => setSelectedArchitect('Bernardazzi')}
-            to="/Bernardazzi"
-          >
-            Бернардацци
-          </Link>
-          <Link
-            className={css.navlink}
-            onClick={() => setSelectedArchitect('Torricelli')}
-            to="/Torricelli"
-          >
-            Торичелли
-          </Link>
-        </nav>
-      </header>
-      <body className={css.content}>
-        <Routes>
-          <Route path="*" element={<Home />} />
-          <Route
-            path="/Bernardazzi"
-            element={<Bernardazzi selectedArchitect={selectedArchitect} />}
-          />
-          <Route path="/Bernardazzi/:projectName" element={<Slider />} />
-          <Route path="/Torricelli/:projectName" element={<Slider />} />
-          {/* <Route path="*" element={<NotFound />} /> */}
-          <Route path="/Torricelli" element={<Torricelli />} />
-        </Routes>
-      </body>
+    <>
+      <div className={css.wrapper}>
+        <header className={css.header}>
+          <nav className={css.nav}>
+            <Link to="/" end>
+              <img className={css.navLogo} src={Logo} alt="Logo" />
+            </Link>
+            <Link
+              className={css.navlink}
+              onClick={() => setSelectedArchitect('Bernardazzi')}
+              to="/Bernardazzi"
+            >
+              Бернардацци
+            </Link>
+            <Link
+              className={css.navlink}
+              onClick={() => setSelectedArchitect('Torricelli')}
+              to="/Torricelli"
+            >
+              Торичелли
+            </Link>
+          </nav>
+        </header>
+        <body className={css.content}>
+          <Routes>
+            <Route path="*" element={<Home />} />
+            <Route
+              path="/Bernardazzi"
+              element={<Bernardazzi selectedArchitect={selectedArchitect} />}
+            />
+            <Route path="/Bernardazzi/:projectName" element={<Slider />} />
+            <Route path="/Torricelli/:projectName" element={<Slider />} />
+            {/* <Route path="*" element={<NotFound />} /> */}
+            <Route path="/Torricelli" element={<Torricelli />} />
+          </Routes>
+          <div className={css.push}></div>
+        </body>
+      </div>
       <footer className={css.footer}>
         <div className={css.footerText}>
           2023 @ Made by{' '}
@@ -57,6 +60,6 @@ export const App = () => {
           </a>
         </div>
       </footer>
-    </div>
+    </>
   );
 };

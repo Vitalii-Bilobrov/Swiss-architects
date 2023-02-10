@@ -1,9 +1,36 @@
 .archName {
   margin-top: 70px;
   padding-left: 30px;
+  text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .archName {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .arch_img {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .archSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 500px;
+    padding-right: 500px;
+  }
 }
 .biographi {
   margin-top: 10px;
+}
+@media screen and (min-width: 1200px) {
+  .biographi {
+    font-size: 32px;
+  }
 }
 .projectListName {
   margin-top: 10px;
@@ -12,6 +39,14 @@
 .projectListBox {
   padding-top: 10px;
   padding-left: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .projectList {
+    padding-left: 300px;
+    padding-right: 300px;
+    display: flex;
+    flex-direction: column;
+  }
 }
 .projectName {
   height: 30px;

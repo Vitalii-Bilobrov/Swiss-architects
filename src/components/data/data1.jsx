@@ -52,13 +52,13 @@ import Kamo2 from './Torricelli/Kamo/2.jpeg';
 
 import Narolskiy1 from './Torricelli/Narolskiy/1.jpeg';
 import Narolskiy2 from './Torricelli/Narolskiy/2.jpeg';
-import Narolskiy3 from './Torricelli/Narolskiy/1.jpeg';
-import Narolskiy4 from './Torricelli/Narolskiy/2.jpeg';
+import Narolskiy3 from './Torricelli/Narolskiy/3.jpeg';
+import Narolskiy4 from './Torricelli/Narolskiy/4.jpeg';
 
 import Tolstoy1 from './Torricelli/Tolstoy/1.jpeg';
 import Tolstoy2 from './Torricelli/Tolstoy/2.jpeg';
-import Tolstoy3 from './Torricelli/Tolstoy/1.jpeg';
-import Tolstoy4 from './Torricelli/Tolstoy/2.jpeg';
+import Tolstoy3 from './Torricelli/Tolstoy/3.jpeg';
+import Tolstoy4 from './Torricelli/Tolstoy/4.jpeg';
 
 export const data1 = [
   {

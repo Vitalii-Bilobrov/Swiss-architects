@@ -41,7 +41,7 @@ export const Bernardazzi = ({ setSelectedArchitect }) => {
           {houses.map(house => (
             <li className={css.projectName} key={house.projectName}>
               <Link to={`/Bernardazzi/${house.projectName}`}>
-                <div>{house.projectName}</div>
+                <div className={css.projectNameItem}>{house.projectName}</div>
               </Link>
             </li>
           ))}

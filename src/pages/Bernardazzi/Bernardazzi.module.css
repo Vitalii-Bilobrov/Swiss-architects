@@ -1,6 +1,6 @@
 .archName {
   margin-top: 70px;
-  padding-left: 30px;
+
   text-align: center;
 }
 @media screen and (min-width: 1200px) {
@@ -8,17 +8,16 @@
     font-size: 48px;
   }
 }
-@media screen and (min-width: 1200px) {
-  .arch_img {
-    margin-top: 20px;
-  }
+.arch_img {
+  margin-top: 20px;
 }
-
+.archSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 @media screen and (min-width: 1200px) {
   .archSection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding-top: 100px;
     padding-left: 500px;
     padding-right: 500px;
@@ -33,25 +32,55 @@
   }
 }
 .projectListName {
-  margin-top: 10px;
+  margin-top: 100px;
   padding-left: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .projectListName {
+    padding-left: 0;
+    font-size: 36px;
+    font-weight: 700;
+  }
 }
 .projectListBox {
   padding-top: 10px;
   padding-left: 30px;
 }
 @media screen and (min-width: 1200px) {
+  .projectListBox {
+    padding-left: 0;
+    width: 1400px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .projectList {
-    padding-left: 300px;
-    padding-right: 300px;
+    /* padding-left: 300px;
+    padding-right: 300px; */
     display: flex;
     flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    max-height: 200px;
   }
 }
 .projectName {
   height: 30px;
 }
-
+@media screen and (min-width: 1200px) {
+  .projectName {
+    font-size: 30px;
+    /* line-height: 50px; */
+  }
+  /* .projectNameItem {
+    line-height: 50px;
+  } */
+}
+/* @media screen and (min-width: 1200px) {
+  .projectNameItem {
+    height: 10px;
+  }
+} */
 /* .projectName::before {
   content: '';
   background: url(/src/images/house.png) no-repeat left top;

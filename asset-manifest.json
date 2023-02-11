@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/react-homework-template/static/css/main.7acaea2f.css",
-    "main.js": "/react-homework-template/static/js/main.07d3183d.js",
-    "index.html": "/react-homework-template/index.html",
-    "main.7acaea2f.css.map": "/react-homework-template/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/react-homework-template/static/js/main.07d3183d.js.map"
+    "main.css": "/Swiss-architects/static/css/main.460ac01f.css",
+    "main.js": "/Swiss-architects/static/js/main.7f416ac4.js",
+    "static/media/4.jpeg": "/Swiss-architects/static/media/4.373967b06b28f032b1ac.jpeg",
+    "static/media/3.jpeg": "/Swiss-architects/static/media/3.bc5a4eec6da79895b360.jpeg",
+    "static/media/2.jpeg": "/Swiss-architects/static/media/2.031cfcf280f814b86796.jpeg",
+    "static/media/6.jpeg": "/Swiss-architects/static/media/6.112e3c1fe24a3a82247c.jpeg",
+    "static/media/1.jpeg": "/Swiss-architects/static/media/1.ef1639fc7e4e89b1f07a.jpeg",
+    "static/media/5.jpeg": "/Swiss-architects/static/media/5.d3695e408b8a6905c943.jpeg",
+    "static/media/swiss.svg": "/Swiss-architects/static/media/swiss.89a569075f6e565074534208ca11de8b.svg",
+    "index.html": "/Swiss-architects/index.html",
+    "main.460ac01f.css.map": "/Swiss-architects/static/css/main.460ac01f.css.map",
+    "main.7f416ac4.js.map": "/Swiss-architects/static/js/main.7f416ac4.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.460ac01f.css",
+    "static/js/main.7f416ac4.js"
   ]
 }

@@ -5,7 +5,7 @@ import { nanoid } from 'nanoid';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
-import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 import { data1 } from '../../components/data/data1';
 import css from './Slider.module.css';
 
@@ -20,7 +20,11 @@ export default function Slider() {
       <h2 className={css.projectName}>{house.author}</h2>
       <h3 className={css.projectName}>{projectName}</h3>
 
-      <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
+      <Swiper
+        pagination={{ clickable: true }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
         {house.photos.map(photo => (
           <SwiperSlide key={nanoid()}>
             <img className={css.photo} src={photo} alt="fff" />

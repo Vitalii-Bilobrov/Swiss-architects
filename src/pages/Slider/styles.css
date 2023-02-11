@@ -37,6 +37,13 @@ body {
   height: auto;
   object-fit: cover;
 }
+.swiper-pagination {
+  position: relative;
+  margin-top: 20px;
+}
+.swiper-pagination-bullet-active {
+  position: relative;
+}
 
 .swiper-slide img {
   display: block;

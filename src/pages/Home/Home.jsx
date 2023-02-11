@@ -9,29 +9,41 @@ import Torricelli_img from 'images/Torricelli.jpg';
 export default function Home() {
   return (
     <div>
-      <img className={css.flag} src={flag} alt="flag" />
-      <h1 className={css.mainTitle}>Швейцарские архитекторы </h1>
+      <div className={css.homeContainer}>
+        <div className={css.flag}>
+          <img src={flag} alt="flag" />
+        </div>
+        <h1 className={css.mainTitle}>Швейцарские архитекторы </h1>
+      </div>
       <div className={css.linksBox}>
         <div>
           <Link className={css.item} to="/Bernardazzi">
             {' '}
-            <img
-              className={css.arch_img}
-              src={Bernardazzi_img}
-              alt="Bernardazzi_img"
-            />
-            Бернардацци Александр Иосифович <div>(1831-1907)</div>
+            <div>
+              <img
+                className={css.arch_img}
+                src={Bernardazzi_img}
+                alt="Bernardazzi_img"
+              />
+            </div>
+            <p>
+              Бернардацци Александр Иосифович <span>(1831-1907)</span>
+            </p>
           </Link>
         </div>
         <div>
           <Link className={css.item} to="/Torricelli">
             {' '}
-            <img
-              className={css.arch_img}
-              src={Torricelli_img}
-              alt="Torricelli_img"
-            />
-            Торичелли Георгий Иванович <div>(1800-1843)</div>
+            <div>
+              <img
+                className={css.arch_img}
+                src={Torricelli_img}
+                alt="Torricelli_img"
+              />
+            </div>
+            <p>
+              Торичелли Георгий Иванович <div>(1800-1843)</div>
+            </p>
           </Link>
         </div>
       </div>

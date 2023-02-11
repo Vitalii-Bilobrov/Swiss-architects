@@ -6,7 +6,7 @@ import Torricelli_img from 'images/Torricelli.jpg';
 export const Torricelli = () => {
   const houses = data1.filter(e => e.id === 'Torricelli');
   return (
-    <main>
+    <div className={css.archSection}>
       <h2 className={css.archName}>
         Торичелли<br></br> Георгий Иванович
       </h2>
@@ -65,6 +65,6 @@ export const Torricelli = () => {
           ))}
         </ul>
       </div>
-    </main>
+    </div>
   );
 };

@@ -16,10 +16,17 @@
 }
 @media screen and (min-width: 1200px) {
   .sliderBody {
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 500px;
+    padding-right: 500px;
   }
   .sliderBody {
     margin-top: 200px;
+  }
+  .projectName {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  .projectText {
+    font-size: 32px;
   }
 }

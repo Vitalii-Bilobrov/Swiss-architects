@@ -44,3 +44,8 @@ body {
   height: 100%;
   object-fit: cover;
 }
+@media screen and (min-width: 1200px) {
+  .swiper-slide img {
+    /* max-height: 1000px; */
+  }
+}

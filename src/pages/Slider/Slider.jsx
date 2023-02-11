@@ -10,7 +10,7 @@ import { data1 } from '../../components/data/data1';
 import css from './Slider.module.css';
 
 import './styles.css';
-import { Navigation } from 'swiper';
+import { Pagination } from 'swiper';
 
 export default function Slider() {
   const { projectName } = useParams();
@@ -20,7 +20,7 @@ export default function Slider() {
       <h2 className={css.projectName}>{house.author}</h2>
       <h3 className={css.projectName}>{projectName}</h3>
 
-      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+      <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
         {house.photos.map(photo => (
           <SwiperSlide key={nanoid()}>
             <img className={css.photo} src={photo} alt="fff" />

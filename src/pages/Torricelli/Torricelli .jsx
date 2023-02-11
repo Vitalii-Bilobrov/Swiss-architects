@@ -1,6 +1,7 @@
 import { data1 } from 'components/data/data1';
 import { Link } from 'react-router-dom';
 import css from './Torricelli.module.css';
+import Torricelli_img from 'images/Torricelli.jpg';
 
 export const Torricelli = () => {
   const houses = data1.filter(e => e.id === 'Torricelli');
@@ -9,6 +10,13 @@ export const Torricelli = () => {
       <h2 className={css.archName}>
         Торичелли<br></br> Георгий Иванович
       </h2>
+      <div>
+        <img
+          className={css.arch_img}
+          src={Torricelli_img}
+          alt="Torricelli_img"
+        />
+      </div>
       <div className={css.biographi}>
         В 1826 году, получив образование, приехал из Лугано (Швейцария) в
         Одессу, где его отец Джованни Торичелли работает как художник.

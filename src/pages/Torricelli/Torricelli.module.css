@@ -26,6 +26,9 @@
   padding-top: 10px;
   padding-left: 30px;
 }
+.projectNameItem {
+  line-height: 25px;
+}
 @media screen and (min-width: 1200px) {
   .archName {
     font-size: 48px;

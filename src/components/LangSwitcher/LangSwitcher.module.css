@@ -1,32 +1,5 @@
-.language-switcher {
-  display: inline-block;
-  position: relative;
-  font-size: 14px;
-}
-
-.language-switcher select {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  box-sizing: border-box;
-  color: #444;
-  font-family: sans-serif;
-  padding: 10px;
-  width: 120px;
-}
-
-.language-switcher::after {
-  content: '';
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 0;
-  height: 0;
-  border-left: 6px solid transparent;
-  border-right: 6px solid transparent;
-  border-top: 6px solid #444;
+@media screen and (min-width: 1200px) {
+  .languageWindow {
+    font-size: 32px;
+  }
 }

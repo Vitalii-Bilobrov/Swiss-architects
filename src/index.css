@@ -37,7 +37,7 @@ a {
   .container {
     margin: 0 auto;
     padding: 0 15px;
-    max-width: 375px;
+    max-width: 1200px;
     width: 100%;
   }
   @media screen and (min-width: 480px) {

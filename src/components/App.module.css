@@ -16,6 +16,7 @@
   padding-top: 5px;
   padding-bottom: 5px;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
@@ -38,6 +39,9 @@
   padding-top: 10px;
   padding-bottom: 10px;
   border-top: 1px solid gray;
+}
+.linkProduser {
+  text-decoration: underline;
 }
 @media screen and (min-width: 1200px) {
   .nav {

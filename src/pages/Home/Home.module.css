@@ -22,7 +22,7 @@
   max-width: 120px;
 }
 .linksBox {
-  margin-top: 20px;
+  margin-top: 40px;
   display: flex;
   justify-content: space-around;
 }
@@ -57,5 +57,11 @@
     font-size: 24px;
     font-weight: 700;
     max-width: 250px;
+  }
+  .arcBox {
+    max-width: 200px;
+    width: 100%;
+    overflow: hidden;
+    height: 250px;
   }
 }

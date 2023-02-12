@@ -7,6 +7,7 @@ import { data1 } from './data/data1';
 import { useState } from 'react';
 import css from './App.module.css';
 import Logo from 'images/swiss.svg';
+import { LanguageSwitcher } from './LangSwitcher/LangSwitcher';
 
 export const App = () => {
   const { projectName } = useParams();
@@ -35,6 +36,7 @@ export const App = () => {
             >
               Торичелли
             </Link>
+            <div>{<LanguageSwitcher />}</div>
           </nav>
         </header>
         <main className={css.content}>
@@ -55,7 +57,7 @@ export const App = () => {
       <footer className={css.footer}>
         <div className={css.footerText}>
           2023 @ Made by{' '}
-          <a className={css.navlink} href="https://starter.ooo/">
+          <a className={css.linkProduser} href="https://starter.ooo/">
             Starter
           </a>
         </div>

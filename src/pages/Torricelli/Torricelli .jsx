@@ -63,7 +63,9 @@ export const Torricelli = () => {
               {houses.map(house => (
                 <li className={css.projectName} key={house.projectName}>
                   <Link to={`/Torricelli/${house.projectName}`}>
-                    <div>{house.projectName}</div>
+                    <div className={css.projectNameItem}>
+                      {house.projectName}
+                    </div>
                   </Link>
                 </li>
               ))}

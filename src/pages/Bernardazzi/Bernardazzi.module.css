@@ -21,7 +21,9 @@
   margin-top: 15px;
   padding-left: 30px;
 }
-
+.projectNameItem {
+  line-height: 25px;
+}
 .projectListBox {
   padding-top: 10px;
   padding-left: 30px;
@@ -60,5 +62,8 @@
     column-count: 2;
     list-style-type: none;
     line-height: 30px;
+  }
+  .projectNameItem {
+    line-height: 45px;
   }
 }

@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
+import css from './LangSwitcher.module.css';
 
 const languageOptions = [
+  { value: 'uk', label: 'Ukrainian' },
   { value: 'en', label: 'English' },
-  { value: 'fr', label: 'Français' },
-  { value: 'es', label: 'Español' },
+  { value: 'ru', label: 'Russian' },
 ];
 
 export const LanguageSwitcher = () => {
@@ -15,7 +16,11 @@ export const LanguageSwitcher = () => {
 
   return (
     <div>
-      <select value={selectedLanguage} onChange={handleLanguageChange}>
+      <select
+        className={css.languageWindow}
+        value={selectedLanguage}
+        onChange={handleLanguageChange}
+      >
         {languageOptions.map(option => (
           <option key={option.value} value={option.value}>
             {option.label}

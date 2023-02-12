@@ -16,22 +16,26 @@ export default function Slider() {
   const { projectName } = useParams();
   const house = data1.find(e => e.projectName === projectName);
   return (
-    <div className={css.sliderBody}>
-      <h2 className={css.projectName}>{house.author}</h2>
-      <h3 className={css.projectName}>{projectName}</h3>
-
-      <Swiper
-        pagination={{ clickable: true }}
-        modules={[Pagination]}
-        className="mySwiper"
-      >
-        {house.photos.map(photo => (
-          <SwiperSlide key={nanoid()}>
-            <img className={css.photo} src={photo} alt="fff" />
-          </SwiperSlide>
-        ))}
-      </Swiper>
-      <div className={css.projectText}>{house.text}</div>
-    </div>
+    <>
+      <div className={css.container}></div>
+      <div className={css.sliderBody}>
+        <h2 className={css.projectName}>{house.author}</h2>
+        <h3 className={css.projectName}>{projectName}</h3>
+        <div className={css.container}>
+          <Swiper
+            pagination={{ clickable: true }}
+            modules={[Pagination]}
+            className="mySwiper"
+          >
+            {house.photos.map(photo => (
+              <SwiperSlide key={nanoid()}>
+                <img className={css.photo} src={photo} alt="fff" />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+        <div className={css.projectText}>{house.text}</div>
+      </div>
+    </>
   );
 }

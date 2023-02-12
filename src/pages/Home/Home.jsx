@@ -8,48 +8,50 @@ import Torricelli_img from 'images/Torricelli.jpg';
 
 export default function Home() {
   return (
-    <div>
-      <div className={css.homeContainer}>
-        <div className={css.flagBox}>
-          <img className={css.flag} src={flag} alt="flag" />
+    <>
+      <div className={css.container}>
+        <div className={css.homeContainer}>
+          <div className={css.flagBox}>
+            <img className={css.flag} src={flag} alt="flag" />
+          </div>
+          <h1 className={css.mainTitle}>Швейцарские архитекторы </h1>
         </div>
-        <h1 className={css.mainTitle}>Швейцарские архитекторы </h1>
-      </div>
-      <div className={css.linksBox}>
-        <div>
-          <Link className={css.item} to="/Bernardazzi">
-            <div className={css.arcBox}>
-              <img
-                className={css.arch_img}
-                src={Bernardazzi_img}
-                alt="Bernardazzi_img"
-              />
-            </div>
-            <p>
-              Бернардацци Александр Иосифович <span>(1831-1907)</span>
-            </p>
-          </Link>
+        <div className={css.linksBox}>
+          <div>
+            <Link className={css.item} to="/Bernardazzi">
+              <div className={css.arcBox}>
+                <img
+                  className={css.arch_img}
+                  src={Bernardazzi_img}
+                  alt="Bernardazzi_img"
+                />
+              </div>
+              <p>
+                Бернардацци Александр Иосифович <span>(1831-1907)</span>
+              </p>
+            </Link>
+          </div>
+          <div>
+            <Link className={css.item} to="/Torricelli">
+              <div className={css.arcBox}>
+                <img
+                  className={css.arch_img}
+                  src={Torricelli_img}
+                  alt="Torricelli_img"
+                />
+              </div>
+              <p>
+                Торичелли Георгий Иванович <span>(1800-1843)</span>
+              </p>
+            </Link>
+          </div>
         </div>
-        <div>
-          <Link className={css.item} to="/Torricelli">
-            <div className={css.arcBox}>
-              <img
-                className={css.arch_img}
-                src={Torricelli_img}
-                alt="Torricelli_img"
-              />
-            </div>
-            <p>
-              Торичелли Георгий Иванович <span>(1800-1843)</span>
-            </p>
-          </Link>
-        </div>
-      </div>
-      <Routes>
-        <Route path="/Bernardazzi" element={<Bernardazzi />} />
+        <Routes>
+          <Route path="/Bernardazzi" element={<Bernardazzi />} />
 
-        <Route path="/Torricelli" element={<Torricelli />} />
-      </Routes>
-    </div>
+          <Route path="/Torricelli" element={<Torricelli />} />
+        </Routes>
+      </div>
+    </>
   );
 }

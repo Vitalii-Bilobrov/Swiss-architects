@@ -16,42 +16,43 @@
   padding-top: 5px;
   padding-bottom: 5px;
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
-@media screen and (min-width: 1200px) {
-  .header {
-  }
-  .nav {
-    font-size: 24px;
-    padding-left: 300px;
-    padding-right: 300px;
-  }
-}
+
 .navlink {
   color: black;
   font-weight: 700;
-}
-.navLogo {
-  height: 80px;
-  width: 100%;
 }
 .content {
   min-height: calc(100vh - 60px);
   background-color: white;
 }
 .footer {
+  margin-top: 15px;
   min-height: 10px;
   width: 100%;
   background-color: lightgray;
   color: black;
   text-align: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-top: 1px solid gray;
 }
-.footerText {
-  color: black;
-  font-size: 24px;
+@media screen and (min-width: 1200px) {
+  .nav {
+    font-size: 24px;
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+
+  .navLogo {
+    height: 80px;
+    width: 100%;
+  }
+
+  .footerText {
+    color: black;
+    font-size: 24px;
+  }
 }

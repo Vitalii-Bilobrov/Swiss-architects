@@ -19,7 +19,7 @@ export default function Slider() {
     <>
       <div className={css.container}></div>
       <div className={css.sliderBody}>
-        <h2 className={css.projectName}>{house.author}</h2>
+        <h2 className={css.projectAuthor}>{house.author}</h2>
         <h3 className={css.projectName}>{projectName}</h3>
         <div className={css.container}>
           <Swiper

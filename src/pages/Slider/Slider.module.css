@@ -6,6 +6,10 @@
   margin-bottom: 10px;
   text-align: center;
 }
+.projectAuthor {
+  margin-bottom: 10px;
+  text-align: center;
+}
 .projectText {
   margin-top: 10px;
 }
@@ -17,22 +21,23 @@
 }
 @media screen and (min-width: 1200px) {
   .sliderBody {
-    padding-left: 500px;
-    padding-right: 500px;
-  }
-  .sliderBody {
-    margin-top: 200px;
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-top: 75px;
   }
   .projectName {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 16px;
   }
   .projectText {
-    font-size: 32px;
+    font-size: 16px;
   }
   .swiper-slide img {
     width: 100%;
-    max-height: 70%;
+    max-height: 50%;
     object-fit: cover;
+  }
+  .projectAuthor {
+    font-size: 24px;
   }
 }

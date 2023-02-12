@@ -1,6 +1,5 @@
 .archName {
   margin-top: 70px;
-
   text-align: center;
 }
 .arch_img {
@@ -21,37 +20,36 @@
   margin-top: 15px;
   padding-left: 30px;
 }
-
+.projectNameItem {
+  line-height: 25px;
+}
 .projectListBox {
   padding-top: 10px;
   padding-left: 30px;
 }
-.projectNameItem {
-  line-height: 25px;
-}
 @media screen and (min-width: 1200px) {
   .archName {
-    font-size: 48px;
+    font-size: 30px;
+    margin-top: 75px;
   }
   .projectName {
     font-size: 30px;
     line-height: 50px;
   }
   .archSection {
-    padding-top: 100px;
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: 150px;
+    padding-right: 150px;
   }
 
   .projectListName {
     padding-left: 0;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 700;
     margin-top: 60px;
     margin-bottom: 20px;
   }
   .biographi {
-    font-size: 32px;
+    font-size: 16px;
     line-height: 1.3;
   }
   .projectListBox {
@@ -62,9 +60,10 @@
     text-align: start;
     column-count: 2;
     list-style-type: none;
-    line-height: 30px;
   }
   .projectNameItem {
-    line-height: 45px;
+    line-height: 35px;
+    font-size: 16px;
+    text-decoration: underline;
   }
 }

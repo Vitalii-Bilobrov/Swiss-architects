@@ -54,6 +54,6 @@ body {
 @media screen and (min-width: 1200px) {
   .swiper-slide img {
     width: auto;
-    height: 800px;
+    height: 400px;
   }
 }

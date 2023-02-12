@@ -39,24 +39,24 @@
 }
 @media screen and (min-width: 1200px) {
   .flagBox {
-    margin-top: 160px;
+    margin-top: 100px;
   }
   .flag {
     height: 100%;
-    width: 500px;
+    width: 250px;
   }
   .mainTitle {
-    margin-top: 50px;
-    font-size: 32px;
+    margin-top: 25px;
+    font-size: 24px;
   }
   .linksBox {
-    margin-top: 250px;
+    margin-top: 75px;
   }
 
   .item {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 700;
-    max-width: 250px;
+    max-width: 200px;
   }
   .arcBox {
     max-width: 200px;

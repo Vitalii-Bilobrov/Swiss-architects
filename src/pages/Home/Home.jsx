@@ -10,16 +10,15 @@ export default function Home() {
   return (
     <div>
       <div className={css.homeContainer}>
-        <div className={css.flag}>
-          <img src={flag} alt="flag" />
+        <div className={css.flagBox}>
+          <img className={css.flag} src={flag} alt="flag" />
         </div>
         <h1 className={css.mainTitle}>Швейцарские архитекторы </h1>
       </div>
       <div className={css.linksBox}>
         <div>
           <Link className={css.item} to="/Bernardazzi">
-            {' '}
-            <div>
+            <div className={css.arcBox}>
               <img
                 className={css.arch_img}
                 src={Bernardazzi_img}
@@ -33,8 +32,7 @@ export default function Home() {
         </div>
         <div>
           <Link className={css.item} to="/Torricelli">
-            {' '}
-            <div>
+            <div className={css.arcBox}>
               <img
                 className={css.arch_img}
                 src={Torricelli_img}
@@ -42,7 +40,7 @@ export default function Home() {
               />
             </div>
             <p>
-              Торичелли Георгий Иванович <div>(1800-1843)</div>
+              Торичелли Георгий Иванович <span>(1800-1843)</span>
             </p>
           </Link>
         </div>

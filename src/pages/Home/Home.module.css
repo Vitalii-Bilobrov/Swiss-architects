@@ -1,19 +1,8 @@
-.flag {
+.flagBox {
   margin-top: 70px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-@media screen and (min-width: 1200px) {
-  .flag {
-    margin-top: 200px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .flag {
-    min-height: 300px;
-    width: auto;
-  }
 }
 .mainTitle {
   margin-top: 20px;
@@ -26,39 +15,54 @@
   text-align: center;
   max-width: 120px;
 }
-@media screen and (min-width: 1200px) {
-  .item {
-    font-size: 30px;
-    font-weight: 700;
-    max-width: 250px;
-  }
-}
 .linksBox {
   margin-top: 20px;
   display: flex;
   justify-content: space-around;
 }
-@media screen and (min-width: 1200px) {
-  .linksBox {
-    margin-top: 150px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .linksBox {
-    gap: 1000px;
-    justify-content: center;
-  }
-}
-.arch_img {
+.arcBox {
   margin-bottom: 10px;
   display: block;
   max-width: 120px;
   height: 140px;
 }
-
 @media screen and (min-width: 1200px) {
+  .homeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .flagBox {
+    /* height: 400px; */
+    /* width: 400px; */
+
+    margin-top: 150px;
+  }
+  .flag {
+    height: 100%;
+    width: 500px;
+  }
+  .mainTitle {
+    margin-top: 75px;
+    font-size: 56px;
+  }
+  .linksBox {
+    margin-top: 150px;
+  }
+  .linksBox {
+    gap: 50px;
+    justify-content: space-around;
+  }
+  .arcBox {
+    width: 250px;
+  }
+  .item {
+    font-size: 30px;
+    font-weight: 700;
+    max-width: 250px;
+  }
   .arch_img {
-    height: 400px;
-    max-width: 350px;
+    height: 300px;
+    max-width: 250px;
   }
 }

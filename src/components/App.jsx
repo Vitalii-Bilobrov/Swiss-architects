@@ -37,7 +37,7 @@ export const App = () => {
             </Link>
           </nav>
         </header>
-        <body className={css.content}>
+        <main className={css.content}>
           <Routes>
             <Route path="*" element={<Home />} />
             <Route
@@ -50,7 +50,7 @@ export const App = () => {
             <Route path="/Torricelli" element={<Torricelli />} />
           </Routes>
           <div className={css.push}></div>
-        </body>
+        </main>
       </div>
       <footer className={css.footer}>
         <div className={css.footerText}>

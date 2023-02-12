@@ -22,6 +22,7 @@
 }
 .projectNameItem {
   line-height: 25px;
+  text-decoration: underline;
 }
 .projectListBox {
   padding-top: 10px;

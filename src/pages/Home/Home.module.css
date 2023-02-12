@@ -37,6 +37,9 @@
   width: 100%;
   object-fit: cover;
 }
+.item p {
+  text-decoration: underline;
+}
 @media screen and (min-width: 1200px) {
   .flagBox {
     margin-top: 100px;

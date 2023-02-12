@@ -1,5 +1,9 @@
+.languageWindow {
+  border-radius: 5px;
+}
 @media screen and (min-width: 1200px) {
   .languageWindow {
     font-size: 32px;
+    border-radius: 10px;
   }
 }

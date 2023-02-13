@@ -1,6 +1,9 @@
 .languageWindow {
   border-radius: 5px;
 }
+.optionList {
+  display: flex;
+}
 @media screen and (min-width: 1200px) {
   .languageWindow {
     font-size: 16px;

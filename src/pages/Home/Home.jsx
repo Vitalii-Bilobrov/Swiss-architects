@@ -27,7 +27,7 @@ export default function Home() {
                 />
               </div>
               <p>
-                Бернардацци Александр Иосифович <span>(1831-1907)</span>
+                Бернардацци <br /> Александр Иосифович <span>(1831-1907)</span>
               </p>
             </Link>
           </div>
@@ -41,7 +41,7 @@ export default function Home() {
                 />
               </div>
               <p>
-                Торичелли Георгий Иванович <span>(1800-1843)</span>
+                Торичелли <br /> Георгий Иванович <span>(1800-1843)</span>
               </p>
             </Link>
           </div>

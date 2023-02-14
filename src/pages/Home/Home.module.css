@@ -13,6 +13,7 @@
   margin-top: 30px;
   text-align: center;
   font-size: 24px;
+  font-weight: 700;
 }
 .item {
   display: flex;
@@ -38,7 +39,11 @@
   object-fit: cover;
 }
 .item p {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
   text-decoration: underline;
+  font-weight: 400;
 }
 @media screen and (min-width: 1200px) {
   .flagBox {

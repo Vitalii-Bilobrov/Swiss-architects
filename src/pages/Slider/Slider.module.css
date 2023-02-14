@@ -1,6 +1,6 @@
 .sliderBody {
   padding: 0 15px;
-  margin-top: 60px;
+  margin-top: 70px;
 }
 .projectName {
   margin-bottom: 10px;
@@ -8,6 +8,7 @@
 }
 .projectAuthor {
   margin-bottom: 10px;
+
   text-align: center;
 }
 .projectText {
@@ -23,7 +24,7 @@
   .sliderBody {
     padding-left: 250px;
     padding-right: 250px;
-    margin-top: 75px;
+    margin-top: 100px;
   }
   .projectName {
     margin-bottom: 20px;

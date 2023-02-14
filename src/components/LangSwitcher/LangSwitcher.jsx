@@ -12,11 +12,9 @@ const languageOptions = [
 
 export const LanguageSwitcher = () => {
   const [selectedLanguage, setSelectedLanguage] = useState('en');
-  const [selectedFlag, setSelectedFlag] = useState(enFlag);
 
   const handleLanguageChange = e => {
     setSelectedLanguage(e.target.value);
-    setSelectedFlag(e.target.flag);
   };
 
   return (
@@ -33,10 +31,6 @@ export const LanguageSwitcher = () => {
               key={option.value}
               value={option.value}
             >
-              {console.log(ruFlag)}
-              <div>
-                <img src={option.flag} alt={option.label} />
-              </div>
               <div>{option.label}</div>
             </option>
           );

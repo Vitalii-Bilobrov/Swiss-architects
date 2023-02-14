@@ -3,6 +3,9 @@
   flex-direction: column;
   align-items: center;
 }
+.box {
+  width: 100%;
+}
 .flagBox {
   margin-top: 90px;
   display: block;
@@ -23,7 +26,7 @@
   max-width: 120px;
 }
 .linksBox {
-  margin-top: 40px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-around;
 }
@@ -44,6 +47,7 @@
   margin-top: 10px;
   text-decoration: underline;
   font-weight: 400;
+  text-align: center;
 }
 @media screen and (min-width: 1200px) {
   .flagBox {

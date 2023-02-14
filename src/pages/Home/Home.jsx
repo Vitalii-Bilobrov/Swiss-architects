@@ -8,7 +8,7 @@ import Torricelli_img from 'images/Torricelli.jpg';
 
 export default function Home() {
   return (
-    <>
+    <div className={css.box}>
       <div className={css.container}>
         <div className={css.homeContainer}>
           <div className={css.flagBox}>
@@ -52,6 +52,6 @@ export default function Home() {
           <Route path="/Torricelli" element={<Torricelli />} />
         </Routes>
       </div>
-    </>
+    </div>
   );
 }

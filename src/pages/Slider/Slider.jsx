@@ -17,11 +17,11 @@ export default function Slider() {
   const house = data1.find(e => e.projectName === projectName);
   return (
     <>
-      <div className={css.container}></div>
-      <div className={css.sliderBody}>
-        <h2 className={css.projectAuthor}>{house.author}</h2>
-        <h3 className={css.projectName}>{projectName}</h3>
-        <div className={css.container}>
+      <div className="container">
+        <div className={css.sliderBody}>
+          <h2 className={css.projectAuthor}>{house.author}</h2>
+          <h3 className={css.projectName}>{projectName}</h3>
+
           <Swiper
             pagination={{ clickable: true }}
             modules={[Pagination]}

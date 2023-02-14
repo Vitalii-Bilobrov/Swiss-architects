@@ -31,11 +31,10 @@
 @media screen and (min-width: 1200px) {
   .archName {
     font-size: 24px;
-    margin-top: 75px;
+    margin-top: 85px;
   }
-  .arch_img {
-    height: 160px;
-    width: 130px;
+  .biographi {
+    margin-top: 20px;
   }
   .projectName {
     font-size: 30px;
@@ -50,7 +49,7 @@
     padding-left: 0;
     font-size: 16px;
     font-weight: 700;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 5px;
   }
   .biographi {
@@ -70,5 +69,19 @@
     line-height: 35px;
     font-size: 16px;
     text-decoration: underline;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .biographi {
+    font-size: 24px;
+  }
+  .projectNameItem {
+    font-size: 24px;
+  }
+  .projectListName {
+    font-size: 28px;
+  }
+  .archName {
+    font-size: 32px;
   }
 }

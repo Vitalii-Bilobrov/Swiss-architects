@@ -7,7 +7,7 @@ export const Bernardazzi = ({ setSelectedArchitect }) => {
   const houses = data1.filter(e => e.id === 'Bernardazzi');
   return (
     <>
-      <div className={css.container}>
+      <div className="container">
         <div className={css.archSection}>
           <h2 className={css.archName}>
             Бернардацци<br></br> Александр Иосифович

@@ -12,7 +12,7 @@
   text-align: center;
 }
 .projectText {
-  margin-top: 10px;
+  margin: 10px 15px;
 }
 .photo {
   float: left;
@@ -40,5 +40,16 @@
   }
   .projectAuthor {
     font-size: 24px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .projectText {
+    font-size: 24px;
+  }
+  .projectName {
+    font-size: 24px;
+  }
+  .projectAuthor {
+    font-size: 32px;
   }
 }

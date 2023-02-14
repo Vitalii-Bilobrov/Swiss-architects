@@ -7,7 +7,7 @@ export const Torricelli = () => {
   const houses = data1.filter(e => e.id === 'Torricelli');
   return (
     <>
-      <div className={css.container}>
+      <div className="container">
         <div className={css.archSection}>
           <h2 className={css.archName}>
             Торичелли<br></br> Георгий Иванович

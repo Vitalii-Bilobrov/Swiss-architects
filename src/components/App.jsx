@@ -1,19 +1,21 @@
-import { Bernardazzi } from 'pages/Bernardazzi/Bernardazzi';
-import { Torricelli } from 'pages/Torricelli/Torricelli ';
-import Home from 'pages/Home/Home';
-import { Link, Route, Routes, useParams } from 'react-router-dom';
-import Slider from 'pages/Slider/Slider';
-import { data1 } from './data/data1';
-import { useState } from 'react';
-import css from './App.module.css';
-import Logo from 'images/swiss.svg';
+import { Link, Route, Routes } from 'react-router-dom';
+
+import React, { Suspense } from 'react';
+import { useTranslation } from 'react-i18next';
+
+import { Bernardazzi } from 'pages/BernardazziPage/BernardazziPage';
+import { Torricelli } from 'pages/TorricelliPage/TorricelliPage';
+import { Home } from 'pages/HomePage/HomePage';
+import { Slider } from 'pages/SliderPage/SliderPage';
 import { LanguageSwitcher } from './LangSwitcher/LangSwitcher';
 
+import Logo from 'images/swiss.svg';
+
+import css from './App.module.css';
+import LanguageFlags from './LanguageFlags/LanguageFlags';
+
 export const App = () => {
-  const { projectName } = useParams();
-  const [selectedArchitect, setSelectedArchitect] = useState(
-    data1.find(architect => architect.id === projectName) || data1[0]
-  );
+  const { t, i18n } = useTranslation();
   return (
     <div className={css.wrapper}>
       <header className={css.header}>
@@ -21,18 +23,10 @@ export const App = () => {
           <Link to="/" end>
             <img className={css.navLogo} src={Logo} alt="Logo" />
           </Link>
-          <Link
-            className={css.navlink}
-            onClick={() => setSelectedArchitect('Bernardazzi')}
-            to="/Bernardazzi"
-          >
+          <Link className={css.navlink} to="/Bernardazzi">
             Бернардацци
           </Link>
-          <Link
-            className={css.navlink}
-            onClick={() => setSelectedArchitect('Torricelli')}
-            to="/Torricelli"
-          >
+          <Link className={css.navlink} to="/Torricelli">
             Торичелли
           </Link>
           <div>{<LanguageSwitcher />}</div>
@@ -41,20 +35,21 @@ export const App = () => {
       <main className={css.content}>
         <Routes>
           <Route path="*" element={<Home />} />
-          <Route
-            path="/Bernardazzi"
-            element={<Bernardazzi selectedArchitect={selectedArchitect} />}
-          />
+          <Route path="/Bernardazzi" element={<Bernardazzi />} />
           <Route path="/Bernardazzi/:projectName" element={<Slider />} />
-          <Route path="/Torricelli/:projectName" element={<Slider />} />
-          {/* <Route path="*" element={<NotFound />} /> */}
           <Route path="/Torricelli" element={<Torricelli />} />
+          <Route path="/Torricelli/:projectName" element={<Slider />} />
         </Routes>
       </main>
       <footer className={css.footer}>
         <div className={css.footerText}>
           2023 @ Made by{' '}
-          <a className={css.linkProduser} href="https://starter.ooo/">
+          <a
+            className={css.linkProduser}
+            href="https://starter.ooo/"
+            target="_blanc"
+            rel="noopener"
+          >
             Starter
           </a>
         </div>

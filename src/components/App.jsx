@@ -1,7 +1,7 @@
 import { Link, Route, Routes } from 'react-router-dom';
 
-import React, { Suspense } from 'react';
-import { useTranslation } from 'react-i18next';
+import React from 'react';
+// import { useTranslation } from 'react-i18next';
 
 import { Bernardazzi } from 'pages/BernardazziPage/BernardazziPage';
 import { Torricelli } from 'pages/TorricelliPage/TorricelliPage';
@@ -12,10 +12,10 @@ import { LanguageSwitcher } from './LangSwitcher/LangSwitcher';
 import Logo from 'images/swiss.svg';
 
 import css from './App.module.css';
-import LanguageFlags from './LanguageFlags/LanguageFlags';
+// import LanguageFlags from './LanguageFlags/LanguageFlags';
 
 export const App = () => {
-  const { t, i18n } = useTranslation();
+  // const { t, i18n } = useTranslation();
   return (
     <div className={css.wrapper}>
       <header className={css.header}>

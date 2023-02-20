@@ -1,21 +1,25 @@
 import { Link, Route, Routes } from 'react-router-dom';
 
 import React from 'react';
-// import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 
 import { Bernardazzi } from 'pages/BernardazziPage/BernardazziPage';
 import { Torricelli } from 'pages/TorricelliPage/TorricelliPage';
 import { Home } from 'pages/HomePage/HomePage';
 import { Slider } from 'pages/SliderPage/SliderPage';
-import { LanguageSwitcher } from './LangSwitcher/LangSwitcher';
+// import { LanguageSwitcher } from './LangSwitcher/LangSwitcher';
 
 import Logo from 'images/swiss.svg';
 
 import css from './App.module.css';
-// import LanguageFlags from './LanguageFlags/LanguageFlags';
 
 export const App = () => {
-  // const { t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = language => {
+    i18n.changeLanguage(language);
+  };
+
   return (
     <div className={css.wrapper}>
       <header className={css.header}>
@@ -24,12 +28,16 @@ export const App = () => {
             <img className={css.navLogo} src={Logo} alt="Logo" />
           </Link>
           <Link className={css.navlink} to="/Bernardazzi">
-            Бернардацци
+            {t('text')}
           </Link>
           <Link className={css.navlink} to="/Torricelli">
             Торичелли
           </Link>
-          <div>{<LanguageSwitcher />}</div>
+          <div>
+            <button onClick={() => changeLanguage('en')}>EN</button>
+            <button onClick={() => changeLanguage('ru')}>UK</button>
+            <button onClick={() => changeLanguage('ru')}>RU</button>
+          </div>
         </nav>
       </header>
       <main className={css.content}>

@@ -3,6 +3,8 @@ import css from './LangSwitcher.module.css';
 import uaFlag from '..//../images/uk.png';
 import enFlag from '..//../images/en.png';
 import ruFlag from '..//../images/ru.png';
+import i18n from 'utils/i18n';
+import { useTranslation } from 'react-i18next';
 
 const languageOptions = [
   { value: 'uk', label: 'Ukrainian', flag: uaFlag },
@@ -12,8 +14,9 @@ const languageOptions = [
 
 export const LanguageSwitcher = () => {
   const [selectedLanguage, setSelectedLanguage] = useState('en');
-
+  // const { t } = useTranslation();
   const handleLanguageChange = e => {
+    i18n.changeLanguage(e.target.value);
     setSelectedLanguage(e.target.value);
   };
 

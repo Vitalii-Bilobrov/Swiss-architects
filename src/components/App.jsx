@@ -35,7 +35,7 @@ export const App = () => {
           </Link>
           <div>
             <button onClick={() => changeLanguage('en')}>EN</button>
-            <button onClick={() => changeLanguage('ru')}>UK</button>
+            <button onClick={() => changeLanguage('ua')}>UA</button>
             <button onClick={() => changeLanguage('ru')}>RU</button>
           </div>
         </nav>

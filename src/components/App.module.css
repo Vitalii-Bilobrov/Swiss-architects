@@ -36,8 +36,11 @@
   gap: 5px;
 }
 .buttonLang {
+  display: block;
   font-size: 8px;
   padding: 1px;
+  background-color: white;
+  border: none;
 }
 .content {
   display: flex;
@@ -80,6 +83,7 @@
   }
   .buttonLang {
     font-size: 14px;
+    padding: 2px;
   }
   .buttonLangBox {
     gap: 10px;

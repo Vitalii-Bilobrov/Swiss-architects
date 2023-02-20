@@ -33,10 +33,25 @@ export const App = () => {
           <Link className={css.navlink} to="/Torricelli">
             Торичелли
           </Link>
-          <div>
-            <button onClick={() => changeLanguage('en')}>EN</button>
-            <button onClick={() => changeLanguage('ua')}>UA</button>
-            <button onClick={() => changeLanguage('ru')}>RU</button>
+          <div className={css.buttonLangBox}>
+            <button
+              className={css.buttonLang}
+              onClick={() => changeLanguage('en')}
+            >
+              EN
+            </button>
+            <button
+              className={css.buttonLang}
+              onClick={() => changeLanguage('ua')}
+            >
+              UA
+            </button>
+            <button
+              className={css.buttonLang}
+              onClick={() => changeLanguage('ru')}
+            >
+              RU
+            </button>
           </div>
         </nav>
       </header>

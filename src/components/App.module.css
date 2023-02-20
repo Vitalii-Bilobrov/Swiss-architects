@@ -30,6 +30,15 @@
   font-weight: 400;
   text-decoration: underline;
 }
+.buttonLangBox {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.buttonLang {
+  font-size: 8px;
+  padding: 1px;
+}
 .content {
   display: flex;
   flex-grow: 1;
@@ -69,6 +78,12 @@
     color: black;
     font-size: 14px;
   }
+  .buttonLang {
+    font-size: 14px;
+  }
+  .buttonLangBox {
+    gap: 10px;
+  }
 }
 @media screen and (min-width: 1920px) {
   .nav {
@@ -76,5 +91,11 @@
   }
   .footerText {
     font-size: 20px;
+  }
+  .buttonLang {
+    font-size: 24px;
+  }
+  .buttonLangBox {
+    gap: 15px;
   }
 }

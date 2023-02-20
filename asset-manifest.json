@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Swiss-architects/static/css/main.52eb8423.css",
-    "main.js": "/Swiss-architects/static/js/main.c9512be9.js",
+    "main.css": "/Swiss-architects/static/css/main.4baa5643.css",
+    "main.js": "/Swiss-architects/static/js/main.303e007f.js",
     "static/media/4.jpeg": "/Swiss-architects/static/media/4.373967b06b28f032b1ac.jpeg",
     "static/media/3.jpeg": "/Swiss-architects/static/media/3.bc5a4eec6da79895b360.jpeg",
     "static/media/2.jpeg": "/Swiss-architects/static/media/2.031cfcf280f814b86796.jpeg",
@@ -11,11 +11,11 @@
     "static/media/swiss.svg": "/Swiss-architects/static/media/swiss.89a569075f6e565074534208ca11de8b.svg",
     "index.html": "/Swiss-architects/index.html",
     "static/media/getFetch.cjs": "/Swiss-architects/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.52eb8423.css.map": "/Swiss-architects/static/css/main.52eb8423.css.map",
-    "main.c9512be9.js.map": "/Swiss-architects/static/js/main.c9512be9.js.map"
+    "main.4baa5643.css.map": "/Swiss-architects/static/css/main.4baa5643.css.map",
+    "main.303e007f.js.map": "/Swiss-architects/static/js/main.303e007f.js.map"
   },
   "entrypoints": [
-    "static/css/main.52eb8423.css",
-    "static/js/main.c9512be9.js"
+    "static/css/main.4baa5643.css",
+    "static/js/main.303e007f.js"
   ]
 }

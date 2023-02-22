@@ -21,8 +21,24 @@ export function Slider({ language }) {
     <>
       <div className="container">
         <div className={css.sliderBody}>
-          <h2 className={css.projectAuthor}>{house.author}</h2>
-          <h3 className={css.projectName}>{projectName}</h3>
+          <h2 className={css.projectAuthor}>
+            {language === 'ru'
+              ? house.author
+              : language === 'en'
+              ? house.authorEnglish
+              : language === 'ua'
+              ? house.authorUkrainian
+              : ''}
+          </h2>
+          <h3 className={css.projectName}>
+            {language === 'ru'
+              ? house.projectName
+              : language === 'en'
+              ? house.projectNameEnglish
+              : language === 'ua'
+              ? house.projectNameUkrainian
+              : ''}
+          </h3>
 
           <Swiper
             pagination={{ clickable: true }}

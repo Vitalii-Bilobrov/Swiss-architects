@@ -64,7 +64,11 @@ export const data1 = [
   {
     id: 'Bernardazzi',
     author: 'Бернардацци Александр Иосифович',
+    authorUkrainian: 'Бернардаццi Oлександр Йоcипович',
+    authorEnglish: 'Bernardazzi Alexander',
     projectName: 'Гостиница Бристоль',
+    projectNameUkrainian: 'Готель Бристоль',
+    projectNameEnglish: 'Bristol Hotel',
     photos: [Bristol1, Bristol2],
     text: 'В конце XIX в. архитектор А. О. Бернардацци приступил к проектированию роскошной гостиницы в стиле необарокко, которую планировалось строить по соседству с Новой Биржей. В 1899 г. строительство обоих зданий было окончено. Гостиница строилась по заказу известного отеле содержателя Н. Юровского и получила имя «Бристоль». О ней с восторгом писала пресса того времени:«Эта гостиница, находящаяся в центре города против нового здания биржи, помещается в огромном, специально для этой цели отстроенном здании очень изящной архитектуры, и является самой большой в Одессе. Гостиница имеет электрическое освещение, подъёмную машину и т. п. Все номера отлично меблированы. Имеются помещения из нескольких комнат. При этой гостинице имеется зимний сад, куда подаётся обед, завтрак и т. п. Гостиница „Бристоль“ построена по плану архитектора А. О. Бернардацци и является одним из наиболее красивых зданий в Одессе. На крыше гостиницы имеется оригинально устроенная площадка, с которой открывается чудный вид на город и море.»Еще при строительстве «Бристоль» позиционировался, как самая роскошная гостиница в городе, четырехэтажное здание которой поражало не только уровнем архитектурной изысканности, но и степенью передовых инженерных решений. Это одно из первых зданий в городе, получивших лифт и индивидуальное паровое отопление во всех номерах.В советский период гостиница «Бристоль» была переименована в «Красную», сменила цвет стен с небесно-голубого на более соответствующий новому названию и утратила угловую декоративную башню. В целом же здание дошло до наших дней в почти неизменном состоянии, а в конце 2000-х гг. гостинице вернули историческое название.',
     textEnglish: `At the end of the XIX century architect A. O. Bernardazzi began designing a luxurious hotel in neo-baroque style, which was planned to be built next to the New Exchange. In 1899 the construction of both buildings was completed.
@@ -87,7 +91,11 @@ During the Soviet period the Bristol Hotel was renamed the Red Hotel, changed it
   {
     id: 'Bernardazzi',
     author: 'Бернардацци Александр Иосифович',
+    authorUkrainian: 'Бернардаццi Oлександр Йоcипович',
+    authorEnglish: 'Bernardazzi Alexander',
     projectName: 'Доходный дом Гарбузова',
+    projectNameUkrainian: 'Прибутковий будинок Гарбузова',
+    projectNameEnglish: 'Profitable house of Garbuzov',
     photos: [Garbuzov1, Garbuzov2],
     text: `Огромный доходный дом на углу Княжеской и Ольгиевской, дом Гарбузова, принято считать последним крупным проектом Бернардацци и единственным зданием, в архитектуре которого зодчий применил элементы модерна.
 
@@ -115,7 +123,11 @@ Inside there are three spacious entrances, the most interesting of which is loca
   {
     id: 'Bernardazzi',
     author: 'Бернардацци Александр Иосифович',
+    authorUkrainian: 'Бернардаццi Oлександр Йоcипович',
+    authorEnglish: 'Bernardazzi Alexander',
     projectName: 'Доходный дом Левита',
+    projectNameUkrainian: 'Прибутковий будинок Левіта',
+    projectNameEnglish: 'Profitable house of Levit',
     photos: [Levit1, Levit2],
     text: `Доходный дом Левита — характерный образец рядовых доходных домов, возводившихся Бернардацци в 1890-е гг. В городе таких домов несколько, композиционно и масштабно они похожи друг на друга, хотя каждый из них все же имеет набор уникальных выразительных элементов.
     
@@ -142,7 +154,11 @@ For example, this project was used to build three tenement houses for Petrokokin
   {
     id: 'Bernardazzi',
     author: 'Бернардацци Александр Иосифович',
+    authorUkrainian: 'Бернардаццi Oлександр Йоcипович',
+    authorEnglish: 'Bernardazzi Alexander',
     projectName: 'Дома Петрококино',
+    projectNameUkrainian: 'Будинки Петрококіно',
+    projectNameEnglish: 'Petrokokino Houses',
     photos: [
       Petrokokino1,
       Petrokokino2,
@@ -194,7 +210,11 @@ The neighboring house, at 20, Troitska Street, is not so original in architectur
   {
     id: 'Bernardazzi',
     author: 'Бернардацци Александр Иосифович',
+    authorUkrainian: 'Бернардаццi Oлександр Йоcипович',
+    authorEnglish: 'Bernardazzi Alexander',
     projectName: 'Водолечебница Абеля и Валика',
+    projectNameUkrainian: 'Водолікарня Абеля і Валіка',
+    projectNameEnglish: 'Abel and Walik Water Spa',
     photos: [Hydrotherapy_Valik1, Hydrotherapy_Valik2],
     text: `Бум гидропатической медицины пришелся в Одессе на два последних десятилетия XIX в. В городе массово основывались и строились десятки частных водолечебниц различной степени представительности: Воллернера, Имбера, Рабиновича и Ясиновского, Исаковича и многих других. 
 
@@ -222,7 +242,11 @@ In one of the issues of the Odessa Gazette for 1900 it is possible to meet a men
   {
     id: 'Bernardazzi',
     author: 'Бернардацци Александр Иосифович',
+    authorUkrainian: 'Бернардаццi Oлександр Йоcипович',
+    authorEnglish: 'Bernardazzi Alexander',
     projectName: 'Доходный дом Гринчака',
+    projectNameUkrainian: 'Прибутковий будинок Грінчака',
+    projectNameEnglish: 'Profitable house of Grinchak',
     photos: [Grinchenko1, Grinchenko2],
     text: `Доходный дом Гринчака был возведен в 1899 г. на углу Маразлиевской и Базарной. Его архитектура сочетает ренессанс и необарокко. 
 Квартиры в доме предназначались для состоятельных съемщиков, что подчеркивалось не только пышными фасадами, но и довольно богатыми интерьерами.
@@ -249,7 +273,11 @@ The house is famous for housing the Zhvanetsky World Club of Odessits in its cor
   {
     id: 'Bernardazzi',
     author: 'Бернардацци Александр Иосифович',
+    authorUkrainian: 'Бернардаццi Oлександр Йоcипович',
+    authorEnglish: 'Bernardazzi Alexander',
     projectName: 'Дом Доппельмейера',
+    projectNameUkrainian: 'Будинок Доппельмейера',
+    projectNameEnglish: 'Doppelmeyer House',
     photos: [Doppelmeistr1, Doppelmeistr2],
     text: `Дом Доппельмейера — один из наиболее характерных образцов романтической эклектики к формам которой Бернардацци часто обращался, свободно и виртуозно смешивая самые неожиданные в своем сочетании стили.
 
@@ -271,7 +299,11 @@ Earlier the house had three stories, but in 1950s it was added by the fourth sto
   {
     id: 'Bernardazzi',
     author: 'Бернардацци Александр Иосифович',
+    authorUkrainian: 'Бернардаццi Oлександр Йоcипович',
+    authorEnglish: 'Bernardazzi Alexander',
     projectName: 'Доходный дом Юровского',
+    projectNameUkrainian: 'Прибутковий будинок Юровського',
+    projectNameEnglish: 'Profitable house of Yurovsky',
     photos: [Mavrokordato1, Mavrokordato2],
     text: `Огромный высокоэтажный, по меркам своей эпохи, дом на Греческой, 50 строился в 1897 г. по заказу купца Н. Юровского. 
 
@@ -305,7 +337,11 @@ The facade is expressive and very presentable, the architecture combines Renaiss
   {
     id: 'Bernardazzi',
     author: 'Бернардацци Александр Иосифович',
+    authorUkrainian: 'Бернардаццi Oлександр Йоcипович',
+    authorEnglish: 'Bernardazzi Alexander',
     projectName: 'Портал лавки Асвадуровых',
+    projectNameUkrainian: 'Портал крамниці Асвадурових',
+    projectNameEnglish: 'Aswadurov"s shop portal',
     photos: [Asvadurov1],
     text: `Асвадуровы — знаменитая купеческая семья армянского происхождения, наиболее успешные и известные табачные фабриканты дореволюционной Одессы (наровне с Поповыми и Дурьянами).
 
@@ -333,7 +369,11 @@ The portal was decorated not only with Italian marble of the best varieties, but
   {
     id: 'Bernardazzi',
     author: 'Бернардацци Александр Иосифович',
+    authorUkrainian: 'Бернардаццi Oлександр Йоcипович',
+    authorEnglish: 'Bernardazzi Alexander',
     projectName: 'Здание Новой биржи',
+    projectNameUkrainian: 'Будівля Нової біржі',
+    projectNameEnglish: 'The New Exchange building',
     photos: [
       New_exchange1,
       New_exchange2,
@@ -405,7 +445,11 @@ Translated with www.DeepL.com/Translator (free version)`,
   {
     id: 'Bernardazzi',
     author: 'Бернардацци Александр Иосифович',
+    authorUkrainian: 'Бернардаццi Oлександр Йоcипович',
+    authorEnglish: 'Bernardazzi Alexander',
     projectName: 'Здание Общества Взаимного кредита',
+    projectNameUkrainian: 'Будівля Товариства Взаємного кредиту',
+    projectNameEnglish: 'Mutual Credit Society building',
     photos: [
       Mutual_Credit_Society1,
       Mutual_Credit_Society2,
@@ -441,7 +485,11 @@ The most impressive of the technical solutions is the massive foundation, in the
   {
     id: 'Bernardazzi',
     author: 'Бернардацци Александр Иосифович',
+    authorUkrainian: 'Бернардаццi Oлександр Йоcипович',
+    authorEnglish: 'Bernardazzi Alexander',
     projectName: 'Реформатская церковь',
+    projectNameUkrainian: 'Реформатська церква',
+    projectNameEnglish: 'Reformed Church',
     photos: [
       Reformed_Church1,
       Reformed_Church2,
@@ -526,7 +574,11 @@ The facade is expressive and very presentable, the architecture combines Renaiss
   {
     id: 'Torricelli',
     author: 'Торичелли Георгий Иванович',
+    authorUkrainian: 'Торічеллі Георгій Іванович',
+    authorEnglish: 'Torricelli Georgiy',
     projectName: 'Здание Английского клуба',
+    projectNameUkrainian: 'Будівля Англійського клубу',
+    projectNameEnglish: 'English Club building',
     photos: [English_club1, English_club2],
     text: `Изящное полутораэтажное здание Английского клуба относится к позднему творчеству Торичелли и проектировалось им в 1840-е гг. параллельно со строительством комплекса лавок Пале-Рояля по соседству. 
 
@@ -554,7 +606,11 @@ The style of the building is executed in the canons of early eclecticism and com
   {
     id: 'Torricelli',
     author: 'Торичелли Георгий Иванович',
+    authorUkrainian: 'Торічеллі Георгій Іванович',
+    authorEnglish: 'Torricelli Georgiy',
     projectName: 'Дом Калио (Камо)',
+    projectNameUkrainian: 'Будинок Каліо (Камо)',
+    projectNameEnglish: 'Calyo House (Camo)',
     photos: [Kamo1, Kamo2],
     text: `Дом Калио (Камо) — выдающийся образец одесского ампира и один из наиболее ярких домов авторства архитектора Торичелли. На момент строительства в 1834 г. дом располагался на тогдашней окраине города и его массивный призматический объем, занимающий ныне угол Тираспольской и Нежинской на фоне малоэтажной застройки того времени выглядел особенно внушительно.
 
@@ -576,7 +632,11 @@ In 1893 it housed a second-class hotel Marcel, well known to many Odessans in th
   {
     id: 'Torricelli',
     author: 'Торичелли Георгий Иванович',
+    authorUkrainian: 'Торічеллі Георгій Іванович',
+    authorEnglish: 'Torricelli Georgiy',
     projectName: 'Дом Нарольского',
+    projectNameUkrainian: 'Будинок Нарольського',
+    projectNameEnglish: 'Narolsky House',
     photos: [Narolskiy1, Narolskiy2, Narolskiy3, Narolskiy4],
     text: `Дом Нарольского важен не только, как этап творчества Торичелли в начале 1830-х гг., но и как один из самых ярких образцов городского особняка Одессы того времени.
 
@@ -598,7 +658,11 @@ The most striking part of the house is the main staircase which is designed in t
   {
     id: 'Torricelli',
     author: 'Торичелли Георгий Иванович',
+    authorUkrainian: 'Торічеллі Георгій Іванович',
+    authorEnglish: 'Torricelli Georgiy',
     projectName: 'Дом Хорвата (Толстых)',
+    projectNameUkrainian: 'Будинок Хорвата (Толстих)',
+    projectNameEnglish: 'House of Horvath (Tolstoy',
     photos: [Tolstoy1, Tolstoy2, Tolstoy3, Tolstoy4],
     text: `Усадьба Толстых — архитектурный комплекс, который включает в себя 3 здания: двухэтажный особняк с 12 комнатами, служебное крыло и картинную галерею. 
 

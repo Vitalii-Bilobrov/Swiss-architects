@@ -32,7 +32,7 @@ export function Home() {
                   alt="Bernardazzi_img"
                 />
               </div>
-              <p>
+              <p className={css.linkHover}>
                 {t('Bernardazzi')} <br /> {t('Alexandr')}
                 <span>(1831-1907)</span>
               </p>

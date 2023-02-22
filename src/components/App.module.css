@@ -29,8 +29,8 @@
   color: black;
   font-weight: 400;
   text-decoration: underline;
-  /* font-size: var(--mainSmallTextSize); */
 }
+
 .buttonLangBox {
   display: flex;
   flex-direction: row;

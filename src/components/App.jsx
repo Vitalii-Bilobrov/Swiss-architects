@@ -27,7 +27,7 @@ export const App = () => {
           <Link to="/" end>
             <img className={css.navLogo} src={Logo} alt="Logo" />
           </Link>
-          <Link className={css.navlink} to="/Bernardazzi">
+          <Link className={(css.navlink, css.linkHover)} to="/Bernardazzi">
             {t('Bernardazzi')}
           </Link>
           <Link className={css.navlink} to="/Torricelli">

@@ -20,12 +20,15 @@ body {
 }
 
 a {
-  /* list-style-type: none; */
   text-decoration: none;
   color: black;
   cursor: pointer;
 }
-
+a:hover {
+  color: red;
+  font-weight: 700;
+  transition: all 0.25s ease-in 0s;
+}
 .container {
   margin: 0 auto;
   padding: 0 10px;

@@ -45,14 +45,13 @@
   border: none;
 }
 .buttonLang:hover {
-  border: 2px solid #ff0000;
-}
-.buttonLang:active,
-.buttonLang:focus {
   background-color: #ff0000;
   color: white;
   font-weight: 700;
-  border: 2px solid white;
+}
+.buttonLang:active,
+.buttonLang:focus {
+  border: 2px solid #ff0000;
 }
 
 .content {

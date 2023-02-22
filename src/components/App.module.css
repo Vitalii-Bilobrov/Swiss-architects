@@ -11,7 +11,7 @@
   width: 100%;
   background-color: lightgray;
   text-align: center;
-  border-bottom: 1px solid gray;
+  border-bottom: 2px solid gray;
 }
 .nav {
   padding-top: 7px;
@@ -42,12 +42,13 @@
   border-radius: 5px;
   padding: 2px;
   background-color: white;
-  border: none;
+  border: 2px solid gray;
 }
 .buttonLang:hover {
   background-color: #ff0000;
   color: white;
   font-weight: 700;
+  border: 2px solid white;
 }
 .buttonLang:active,
 .buttonLang:focus {

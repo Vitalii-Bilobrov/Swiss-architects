@@ -8,8 +8,14 @@ import Bernardazzi_img from 'images/Bernardazzi.jpg';
 import Torricelli_img from 'images/Torricelli.jpg';
 
 import css from './HomePage.module.css';
+import { useTranslation } from 'react-i18next';
 
 export function Home() {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = language => {
+    i18n.changeLanguage(language);
+  };
   return (
     <div className={css.box}>
       <div className={css.container}>
@@ -17,7 +23,7 @@ export function Home() {
           <div className={css.flagBox}>
             <img className={css.flag} src={flag} alt="flag" />
           </div>
-          <h1 className={css.mainTitle}>Швейцарские архитекторы </h1>
+          <h1 className={css.mainTitle}>{t('SwissA')}</h1>
         </div>
         <div className={css.linksBox}>
           <div>
@@ -30,7 +36,8 @@ export function Home() {
                 />
               </div>
               <p>
-                Бернардацци <br /> Александр Иосифович <span>(1831-1907)</span>
+                {t('Bernardazzi')} <br /> {t('Alexandr')}
+                <span>(1831-1907)</span>
               </p>
             </Link>
           </div>
@@ -44,7 +51,8 @@ export function Home() {
                 />
               </div>
               <p>
-                Торичелли <br /> Георгий Иванович <span>(1800-1843)</span>
+                {t('Torricelli')} <br /> {t('Georgiy')}
+                <span>(1800-1843)</span>
               </p>
             </Link>
           </div>

@@ -13,9 +13,10 @@ import css from './SliderPage.module.css';
 import './styles.css';
 import { Pagination } from 'swiper';
 
-export function Slider() {
+export function Slider({ language }) {
   const { projectName } = useParams();
   const house = data1.find(e => e.projectName === projectName);
+  // console.log(language);
   return (
     <>
       <div className="container">
@@ -30,12 +31,20 @@ export function Slider() {
           >
             {house.photos.map(photo => (
               <SwiperSlide key={nanoid()}>
-                <img className={css.photo} src={photo} alt="fff" />
+                <img className={css.photo} src={photo} alt="house" />
               </SwiperSlide>
             ))}
           </Swiper>
         </div>
-        <div className={css.projectText}>{house.text}</div>
+        <div className={css.projectText}>
+          {language === 'ru'
+            ? house.text
+            : language === 'en'
+            ? house.textEnglish
+            : language === 'ua'
+            ? house.textUkrainian
+            : ''}
+        </div>
       </div>
     </>
   );

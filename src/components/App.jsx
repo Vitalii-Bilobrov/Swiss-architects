@@ -19,7 +19,7 @@ export const App = () => {
   const changeLanguage = language => {
     i18n.changeLanguage(language);
   };
-
+  // console.log(i18n.language);
   return (
     <div className={css.wrapper}>
       <header className={css.header}>
@@ -28,10 +28,10 @@ export const App = () => {
             <img className={css.navLogo} src={Logo} alt="Logo" />
           </Link>
           <Link className={css.navlink} to="/Bernardazzi">
-            {t('text')}
+            {t('Bernardazzi')}
           </Link>
           <Link className={css.navlink} to="/Torricelli">
-            Торичелли
+            {t('Torricelli')}
           </Link>
           <div className={css.buttonLangBox}>
             <button
@@ -57,16 +57,28 @@ export const App = () => {
       </header>
       <main className={css.content}>
         <Routes>
-          <Route path="*" element={<Home />} />
-          <Route path="/Bernardazzi" element={<Bernardazzi />} />
-          <Route path="/Bernardazzi/:projectName" element={<Slider />} />
-          <Route path="/Torricelli" element={<Torricelli />} />
-          <Route path="/Torricelli/:projectName" element={<Slider />} />
+          <Route path="*" element={<Home language={i18n.language} />} />
+          <Route
+            path="/Bernardazzi"
+            element={<Bernardazzi language={i18n.language} />}
+          />
+          <Route
+            path="/Bernardazzi/:projectName"
+            element={<Slider language={i18n.language} />}
+          />
+          <Route
+            path="/Torricelli"
+            element={<Torricelli language={i18n.language} />}
+          />
+          <Route
+            path="/Torricelli/:projectName"
+            element={<Slider language={i18n.language} />}
+          />
         </Routes>
       </main>
       <footer className={css.footer}>
         <div className={css.footerText}>
-          2023 @ Made by{' '}
+          {t('Made')}
           <a
             className={css.linkProduser}
             href="https://starter.ooo/"

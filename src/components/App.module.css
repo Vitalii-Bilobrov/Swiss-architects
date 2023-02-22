@@ -49,6 +49,7 @@
   color: white;
   font-weight: 700;
   border: 2px solid white;
+  transition: all 0.25s ease-in 0s;
 }
 .buttonLang:active,
 .buttonLang:focus {

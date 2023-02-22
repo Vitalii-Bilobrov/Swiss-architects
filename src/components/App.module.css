@@ -34,7 +34,7 @@
 .buttonLangBox {
   display: flex;
   flex-direction: row;
-  gap: 5px;
+  gap: 7px;
 }
 .buttonLang {
   display: block;

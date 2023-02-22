@@ -15,7 +15,7 @@
 .mainTitle {
   margin-top: 30px;
   text-align: center;
-  font-size: 24px;
+  font-size: var(--smallTitleTextSize);
   font-weight: 700;
 }
 .item {
@@ -59,7 +59,7 @@
   }
   .mainTitle {
     margin-top: 25px;
-    font-size: 24px;
+    font-size: var(--middleTitleTextSize);
   }
   .linksBox {
     margin-top: 75px;
@@ -86,6 +86,6 @@
   }
   .mainTitle {
     margin-top: 25px;
-    font-size: 40px;
+    font-size: var(--bigTitleTextSize);
   }
 }

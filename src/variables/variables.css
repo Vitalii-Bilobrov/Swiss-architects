@@ -1,6 +1,12 @@
 :root {
   --mainExtraSmallTextSize: 10px;
   --mainSmallTextSize: 15px;
-  --mainMiddleTextSize: 20px;
+  --mainMiddleTextSize: 15px;
   --mainBigTextSize: 25px;
+  --smallTitleTextSize: 25px;
+  --middleTitleTextSize: 35px;
+  --bigTitleTextSize: 40px;
+  --smallSubTitleTextSize: 15px;
+  --middleSubTitleTextSize: 20px;
+  --bigSubTitleTextSize: 30px;
 }

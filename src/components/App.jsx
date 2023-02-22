@@ -19,7 +19,7 @@ export const App = () => {
   const changeLanguage = language => {
     i18n.changeLanguage(language);
   };
-  // console.log(i18n.language);
+
   return (
     <div className={css.wrapper}>
       <header className={css.header}>

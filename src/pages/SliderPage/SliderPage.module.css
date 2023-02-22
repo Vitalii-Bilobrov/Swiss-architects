@@ -5,15 +5,17 @@
 .projectName {
   margin-bottom: 10px;
   text-align: center;
+  font-size: var(--smallSubTitleTextSize);
 }
 .projectAuthor {
   margin-bottom: 10px;
-
   text-align: center;
+  font-size: var(--smallTitleTextSize);
 }
 .projectText {
   margin: 10px 15px;
   white-space: pre-wrap;
+  font-size: var(--mainSmallTextSize);
 }
 .photo {
   float: left;
@@ -29,10 +31,10 @@
   }
   .projectName {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: var(--middleSubTitleTextSize);
   }
   .projectText {
-    font-size: 16px;
+    font-size: var(--mainMiddleTextSize);
   }
   .swiper-slide img {
     width: 100%;
@@ -40,18 +42,18 @@
     object-fit: cover;
   }
   .projectAuthor {
-    font-size: 24px;
+    font-size: var(--middleTitleTextSize);
   }
 }
 @media screen and (min-width: 1920px) {
   .projectText {
-    font-size: 24px;
+    font-size: var(--mainBigTextSize);
   }
   .projectName {
-    font-size: 24px;
+    font-size: var(--bigSubTitleTextSize);
   }
   .projectAuthor {
-    font-size: 32px;
+    font-size: var(--bigTitleTextSize);
   }
   .sliderBody {
     margin-top: 120px;

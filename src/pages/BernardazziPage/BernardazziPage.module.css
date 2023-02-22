@@ -1,6 +1,7 @@
 .archName {
   margin-top: 70px;
   text-align: center;
+  font-size: var(--smallTitleTextSize);
 }
 .arch_img {
   margin-top: 20px;
@@ -30,7 +31,7 @@
 }
 @media screen and (min-width: 1200px) {
   .archName {
-    font-size: 24px;
+    font-size: var(--middleTitleTextSize);
     margin-top: 85px;
   }
   .biographi {
@@ -82,6 +83,6 @@
     font-size: 28px;
   }
   .archName {
-    font-size: 32px;
+    font-size: var(--bigTitleTextSize);
   }
 }

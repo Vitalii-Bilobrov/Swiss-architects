@@ -16,7 +16,7 @@ import { Pagination } from 'swiper';
 export function Slider({ language }) {
   const { projectName } = useParams();
   const house = data1.find(e => e.projectName === projectName);
-  // console.log(language);
+
   return (
     <>
       <div className="container">

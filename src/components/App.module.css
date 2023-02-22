@@ -44,7 +44,9 @@
   background-color: white;
   border: none;
 }
-.buttonLang:hover,
+.buttonLang:hover {
+  border: 2px solid #ff0000;
+}
 .buttonLang:active,
 .buttonLang:focus {
   background-color: #ff0000;

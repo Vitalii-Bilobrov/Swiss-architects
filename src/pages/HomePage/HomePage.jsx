@@ -11,11 +11,8 @@ import css from './HomePage.module.css';
 import { useTranslation } from 'react-i18next';
 
 export function Home() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
-  const changeLanguage = language => {
-    i18n.changeLanguage(language);
-  };
   return (
     <div className={css.box}>
       <div className={css.container}>

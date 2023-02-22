@@ -1,5 +1,5 @@
 import { Link, Route, Routes } from 'react-router-dom';
-
+import { useState, useEffect } from 'react';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
@@ -14,10 +14,22 @@ import Logo from 'images/swiss.svg';
 import css from './App.module.css';
 
 export const App = () => {
-  const { t, i18n } = useTranslation();
+  const [active, setActive] = useState(
+    localStorage.getItem('activeLink') || ''
+  );
 
-  const changeLanguage = language => {
+  useEffect(() => {
+    const activeLinkId = localStorage.getItem('activeLink');
+    if (activeLinkId) {
+      setActive(activeLinkId);
+    }
+  }, []);
+
+  const { t, i18n } = useTranslation();
+  const changeLanguage = (language, id) => {
     i18n.changeLanguage(language);
+    setActive(id);
+    localStorage.setItem('activeLink', id);
   };
 
   return (
@@ -27,28 +39,34 @@ export const App = () => {
           <Link to="/" end>
             <img className={css.navLogo} src={Logo} alt="Logo" />
           </Link>
-          <Link className={(css.navlink, css.linkHover)} to="/Bernardazzi">
+          <Link className={`${css.navlink} ${css.linkHover}`} to="/Bernardazzi">
             {t('Bernardazzi')}
           </Link>
-          <Link className={css.navlink} to="/Torricelli">
+          <Link className={`${css.navlink} ${css.linkHover}`} to="/Torricelli">
             {t('Torricelli')}
           </Link>
           <div className={css.buttonLangBox}>
             <button
-              className={css.buttonLang}
-              onClick={() => changeLanguage('en')}
+              className={`${css.buttonLang} ${
+                css.active === 'link1' ? 'active' : ''
+              }`}
+              onClick={() => changeLanguage('en', 'link1')}
             >
               EN
             </button>
             <button
-              className={css.buttonLang}
-              onClick={() => changeLanguage('ua')}
+              className={`${css.buttonLang} ${
+                css.active === 'link2' ? 'active' : ''
+              }`}
+              onClick={() => changeLanguage('ua', 'link2')}
             >
               UA
             </button>
             <button
-              className={css.buttonLang}
-              onClick={() => changeLanguage('ru')}
+              className={`${css.buttonLang} ${
+                css.active === 'link3' ? 'active' : ''
+              }`}
+              onClick={() => changeLanguage('ru', 'link3')}
             >
               RU
             </button>

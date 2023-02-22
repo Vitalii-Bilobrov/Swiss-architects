@@ -26,6 +26,7 @@
   width: 100%;
 }
 .navlink {
+  width: 80px;
   color: black;
   font-weight: 400;
   text-decoration: underline;

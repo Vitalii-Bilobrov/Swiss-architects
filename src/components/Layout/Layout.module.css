@@ -1,0 +1,120 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.header {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: lightgray;
+  text-align: center;
+  border-bottom: 2px solid gray;
+}
+.nav {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.navLogo {
+  height: 30px;
+  width: 100%;
+}
+.navlink {
+  width: 80px;
+  color: black;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.buttonLangBox {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+}
+.buttonLang {
+  display: block;
+
+  border-radius: 5px;
+  padding: 2px;
+  background-color: white;
+  border: 2px solid gray;
+}
+.buttonLang:hover {
+  background-color: #ff0000;
+  color: white;
+  font-weight: 700;
+  border: 2px solid white;
+  transition: all 0.25s ease-in 0s;
+}
+.buttonLang:active,
+.buttonLang:focus {
+  border: 2px solid #ff0000;
+}
+.active {
+  border: 2px solid #ff0000;
+}
+.content {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  background-color: white;
+  width: 100%;
+}
+.footer {
+  font-size: var(--mainExtraSmallTextSize);
+  width: 100%;
+  background-color: lightgray;
+  color: black;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid gray;
+}
+.linkProduser {
+  text-decoration: underline;
+}
+@media screen and (min-width: 1200px) {
+  .nav {
+    /* font-size: 16px; */
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+  .navLogo {
+    height: 50px;
+    width: 100%;
+  }
+
+  .footer {
+    font-size: var(--mainSmallTextSize);
+  }
+  .buttonLang {
+    font-size: 14px;
+    padding: 2px;
+  }
+  .buttonLangBox {
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  /* .nav {
+    font-size: 24px;
+  } */
+  .footerText {
+    font-size: 20px;
+  }
+  .buttonLang {
+    font-size: 24px;
+  }
+  .buttonLangBox {
+    gap: 15px;
+  }
+}

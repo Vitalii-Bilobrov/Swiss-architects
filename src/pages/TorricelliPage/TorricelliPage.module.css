@@ -59,12 +59,17 @@
   }
   .projectListBox {
     padding-left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .projectList {
     list-style-position: inside;
     text-align: start;
     column-count: 2;
     list-style-type: none;
+    max-width: 550px;
+    width: 100%;
   }
   .projectNameItem {
     line-height: 35px;

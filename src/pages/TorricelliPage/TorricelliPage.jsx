@@ -24,7 +24,7 @@ export const Torricelli = ({ language }) => {
             />
           </div>
           <div className={css.biographi}>{t('BoigraphiT')}</div>;
-          <h3 className={css.projectListName}>Работы автора:</h3>
+          <h3 className={css.projectListName}>{t('FamousProjects')}</h3>
           <div className={css.projectListBox}>
             <ul className={css.projectList}>
               {houses.map(house => (

@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import React from 'react';
+import React, { useState } from 'react';
 import { nanoid } from 'nanoid';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -12,10 +12,22 @@ import css from './SliderPage.module.css';
 
 import './styles.css';
 import { Pagination } from 'swiper';
+import { ModalComponent } from './ModalComponants';
 
 export function Slider({ language }) {
   const { projectName } = useParams();
   const house = data1.find(e => e.projectName === projectName);
+
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null);
+  const screenWidth = window.screen.width;
+
+  const handleImageClick = photo => {
+    if (screenWidth > 1200) {
+      setSelectedImage(photo);
+      setModalIsOpen(true);
+    }
+  };
 
   return (
     <>
@@ -47,10 +59,21 @@ export function Slider({ language }) {
           >
             {house.photos.map(photo => (
               <SwiperSlide key={nanoid()}>
-                <img className={css.photo} src={photo} alt="house" />
+                <img
+                  className={css.photo}
+                  src={photo}
+                  alt="house"
+                  onClick={() => handleImageClick(photo)}
+                />
               </SwiperSlide>
             ))}
           </Swiper>
+
+          <ModalComponent
+            image={selectedImage}
+            isOpen={modalIsOpen}
+            onClose={() => setModalIsOpen(false)}
+          />
         </div>
         <div className={css.projectText}>
           {language === 'ru'

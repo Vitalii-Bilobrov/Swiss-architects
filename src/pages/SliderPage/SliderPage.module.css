@@ -23,6 +23,18 @@
   height: 100px;
   object-fit: cover;
 }
+
+.modal {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal img {
+  max-width: 100%;
+  max-height: 80%;
+  object-fit: contain;
+}
 @media screen and (min-width: 1200px) {
   .sliderBody {
     padding-left: 250px;

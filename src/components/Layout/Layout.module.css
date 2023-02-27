@@ -77,6 +77,11 @@
   padding-top: 10px;
   padding-bottom: 10px;
   border-top: 1px solid gray;
+
+  /* position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0; */
 }
 .linkProduser {
   text-decoration: underline;

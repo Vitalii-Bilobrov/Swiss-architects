@@ -70,6 +70,7 @@ export function Slider({ language }) {
           </Swiper>
 
           <ModalComponent
+            id="modal"
             image={selectedImage}
             isOpen={modalIsOpen}
             onClose={() => setModalIsOpen(false)}

@@ -28,8 +28,8 @@ export const Torricelli = ({ language }) => {
           <div className={css.projectListBox}>
             <ul className={css.projectList}>
               {houses.map(house => (
-                <li className={css.projectName} key={house.projectName}>
-                  <Link to={`/Torricelli/${house.projectName}`}>
+                <li className={css.projectName} key={house.projectNameEnglish}>
+                  <Link to={`/Torricelli/${house.projectNameEnglish}`}>
                     <div className={css.projectNameItem}>
                       {language === 'ru'
                         ? house.projectName

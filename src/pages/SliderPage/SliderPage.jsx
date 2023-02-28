@@ -15,8 +15,8 @@ import { Pagination } from 'swiper';
 import { ModalComponent } from './ModalComponants';
 
 export function Slider({ language }) {
-  const { projectName } = useParams();
-  const house = data1.find(e => e.projectName === projectName);
+  const { projectNameEnglish } = useParams();
+  const house = data1.find(e => e.projectNameEnglish === projectNameEnglish);
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);

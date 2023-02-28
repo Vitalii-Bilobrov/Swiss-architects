@@ -15,7 +15,7 @@ export const Navigation = () => {
           element={<Bernardazzi language={i18n.language} />}
         />
         <Route
-          path="/Bernardazzi/:projectName"
+          path="/Bernardazzi/:projectNameEnglish"
           element={<Slider language={i18n.language} />}
         />
         <Route
@@ -23,7 +23,7 @@ export const Navigation = () => {
           element={<Torricelli language={i18n.language} />}
         />
         <Route
-          path="/Torricelli/:projectName"
+          path="/Torricelli/:projectNameEnglish"
           element={<Slider language={i18n.language} />}
         />
       </Routes>

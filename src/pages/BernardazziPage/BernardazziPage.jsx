@@ -30,8 +30,8 @@ export const Bernardazzi = ({ language }) => {
           <div className={css.projectListBox}>
             <ul className={css.projectList}>
               {houses.map(house => (
-                <li className={css.projectName} key={house.projectName}>
-                  <Link to={`/Bernardazzi/${house.projectName}`}>
+                <li className={css.projectName} key={house.projectNameEnglish}>
+                  <Link to={`/Bernardazzi/${house.projectNameEnglish}`}>
                     <div className={css.projectNameItem}>
                       {language === 'ru'
                         ? house.projectName

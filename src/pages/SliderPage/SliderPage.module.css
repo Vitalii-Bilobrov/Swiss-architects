@@ -25,14 +25,19 @@
 }
 
 .modal {
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .modal img {
-  max-width: 100%;
-  max-height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 1000px;
+  height: auto;
+  max-height: 75%;
+
   object-fit: contain;
 }
 @media screen and (min-width: 1200px) {

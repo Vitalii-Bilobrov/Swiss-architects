@@ -34,8 +34,8 @@ export function Slider({ language }) {
       <div className="container">
         <div className={css.sliderBody}>
           <h2 className={css.projectAuthor}>
-            {language === 'ru'
-              ? house.author
+            {language === 'de'
+              ? house.authorDeutsch
               : language === 'en'
               ? house.authorEnglish
               : language === 'ua'
@@ -43,8 +43,8 @@ export function Slider({ language }) {
               : ''}
           </h2>
           <h3 className={css.projectName}>
-            {language === 'ru'
-              ? house.projectName
+            {language === 'de'
+              ? house.projectNameDeutsch
               : language === 'en'
               ? house.projectNameEnglish
               : language === 'ua'
@@ -77,8 +77,8 @@ export function Slider({ language }) {
           />
         </div>
         <div className={css.projectText}>
-          {language === 'ru'
-            ? house.text
+          {language === 'de'
+            ? house.textDeutsch
             : language === 'en'
             ? house.textEnglish
             : language === 'ua'

@@ -31,8 +31,8 @@ export const Torricelli = ({ language }) => {
                 <li className={css.projectName} key={house.projectNameEnglish}>
                   <Link to={`/Torricelli/${house.projectNameEnglish}`}>
                     <div className={css.projectNameItem}>
-                      {language === 'ru'
-                        ? house.projectName
+                      {language === 'de'
+                        ? house.projectNameDeutsch
                         : language === 'en'
                         ? house.projectNameEnglish
                         : language === 'ua'

@@ -66,9 +66,11 @@ export const data1 = [
     author: 'Бернардацци Александр Иосифович',
     authorUkrainian: 'Бернардаццi Oлександр Йоcипович',
     authorEnglish: 'Bernardazzi Alexander',
+    authorDeutsch: 'Bernardazzi Alexandr',
     projectName: 'Гостиница Бристоль',
     projectNameUkrainian: 'Готель Бристоль',
     projectNameEnglish: 'Bristol Hotel',
+    projectNameDeutsch: 'Hotel Bristol ',
     photos: [Bristol1, Bristol2],
     text: `В конце XIX в. архитектор А. О. Бернардацци приступил к проектированию роскошной гостиницы в стиле необарокко, которую планировалось строить по соседству с Новой Биржей. В 1899 г. строительство обоих зданий было окончено.
     
@@ -93,15 +95,21 @@ During the Soviet period the Bristol Hotel was renamed the Red Hotel, changed it
 Ще під час будівництва "Брістоль" позиціонувався як найрозкішніший готель у місті, чотириповерхова будівля якого вражала не тільки рівнем архітектурної вишуканості, а й ступенем передових інженерних рішень. Це одна з перших будівель у місті, що отримала ліфт та індивідуальне парове опалення у всіх номерах.
    
 У радянський період готель "Брістоль" було перейменовано на "Червоний", він змінив колір стін із небесно-блакитного на такий, що більше відповідав би новій назві, і втратив кутову декоративну вежу. Загалом же будівля дійшла до наших днів у майже незмінному стані, а наприкінці 2000-х рр. готелю повернули історичну назву,`,
+    textDeutsch: `Ende des 20. Jahrhunderts begann der Architekt. Bernardazzi mit der Planung eines prächtigen Hotels im Neubarockstil, das in der Nähe der Neuen Börse gebaut werden sollte. 1899 wurden die beiden Gebäude fertig gestellt. Das Hotel wurde im Auftrag des bekannten Hoteliers N. Yurkovskyi gebaut und bekam den Namen Bristol.  
+    Die damalige Presse schrieb über das Hotel voller Begeisterung: „Dieses Hotel liegt in der Stadtmitte dem neuen Börsengebäude gegenüber. Es ist ein eigens dafür gebautes Gebäude mit der feinsten Architektur und damit das größte Hotel in Odesa. Das Hotel verfügt über elektrische Beleuchtung, einen Aufzug usw. Alle Zimmer sind hervorragend eingerichtet. Manche Räume bestehen aus mehreren Zimmern. Im Hotel gibt es einen Wintergarten, in dem Mittagessen, Frühstück etc. serviert werden. Das Hotel „Bristol“ wurde nach dem Entwurf des Architekten A. Bernardazzi gebaut und gilt als eines der schönsten Gebäude in Odesa. Auf dem Hoteldach befindet sich ein eigenartig gestalteter Platz, der eine wunderschöne Ansicht auf die Stadt und das Meer bietet“.    
+Noch während der Bauarbeiten wurde „Bristol“ als das schönste Hotel der Stadt genannt. Das vierstöckige Gebäude beeindruckte nicht nur durch ihre baukünstlerische Zierlichkeit, sondern auch durch fortschrittliche technische Lösungen. Das war eines der ersten Gebäude in der Stadt, das mit einem Aufzug und der individuellen Dampfheizung in jedem Zimmer ausgestattet wurde.    
+In der Sowjetzeit wurde das Hotel „Bristol“ in „Rotes Hotel“ umbenannt. Die Wandfarbe passte sich ebenfalls dem neuen Namen an. Das Hotel büßte seinen dekorativen Eckturm ein. Im Großen und Ganzen blieb das Gebäude fast unverändert bis an unsere Zeiten erhalten. Ende 2000-er Jahre bekam das Hotel seinen historischen Namen zurück.`,
   },
   {
     id: 'Bernardazzi',
     author: 'Бернардацци Александр Иосифович',
     authorUkrainian: 'Бернардаццi Oлександр Йоcипович',
     authorEnglish: 'Bernardazzi Alexander',
+    authorDeutsch: 'Bernardazzi Alexandr',
     projectName: 'Доходный дом Гарбузова',
     projectNameUkrainian: 'Прибутковий будинок Гарбузова',
     projectNameEnglish: 'Profitable house of Garbuzov',
+    projectNameDeutsch: 'Das Haus von Harbuzov',
     photos: [Garbuzov1, Garbuzov2],
     text: `Огромный доходный дом на углу Княжеской и Ольгиевской, дом Гарбузова, принято считать последним крупным проектом Бернардацци и единственным зданием, в архитектуре которого зодчий применил элементы модерна.
 
@@ -125,15 +133,18 @@ Inside there are three spacious entrances, the most interesting of which is loca
 Будинок спочатку мав три поверхи, четвертий добудовували ближче до 1910-х рр. за проектом архітектора Нестураха, і стилістично він вибивається із загального контексту суворої архітектури будівлі.
 
 Усередині є три просторих під'їзди, найцікавіший з яких розташований в арці проїзду у двір. Сходи тут мають виразну овальну форму.`,
+    textDeutsch: `Das riesengroße Miethaus, das an der Kreuzung der Straßen Kniazhenska und Olhiievsla liegt, gilt als das letzte große Projekt von Bernardazzi und das einzige Gebäude, dessen Architektur die Jugendstilelemente hat. Volodymyr Harbuzov war der Bauunternehmer und baute 1901-1905 nach den Planungen von Bernardazzi die Kliniken der medizinischen Fakultät. Im gleichen Zeitraum wurde auch der Bau des Privathauses von Harbuzov abgeschlossen.  Ursprünglich hatte das Haus drei Stockwerke. Um 1910 wurde das Haus nach dem Projekt von dem Architekten Nesturakh aufgestockt und fällt nun aus dem Gesamtkonzept einer strengen Gebäudearchitektur stilistisch aus. Das Haus beherbergt drei geräumige Treppenhäuser, wobei das interessanteste davon im Einfahrtsbogen zum Innenhof liegt. `,
   },
   {
     id: 'Bernardazzi',
     author: 'Бернардацци Александр Иосифович',
     authorUkrainian: 'Бернардаццi Oлександр Йоcипович',
     authorEnglish: 'Bernardazzi Alexander',
+    authorDeutsch: 'Bernardazzi Alexandr',
     projectName: 'Доходный дом Левита',
     projectNameUkrainian: 'Прибутковий будинок Левіта',
     projectNameEnglish: 'Profitable house of Levit',
+    projectNameDeutsch: 'Das Haus von Levit',
     photos: [Levit1, Levit2],
     text: `Доходный дом Левита — характерный образец рядовых доходных домов, возводившихся Бернардацци в 1890-е гг. В городе таких домов несколько, композиционно и масштабно они похожи друг на друга, хотя каждый из них все же имеет набор уникальных выразительных элементов.
     
@@ -156,15 +167,21 @@ For example, this project was used to build three tenement houses for Petrokokin
 Будинок зводили 1891 року для Емілії Арістовни Тработті, проте ще до завершення будівництва його придбав купець Левіт. Саме як будинок Левіта будівля згадана в журналі "Зодчий" і вважається першим зразком так званого "планового проекту", до якого Бернардацці надалі повертався ще не раз.
 
 Наприклад, цей проєкт використовувався для зведення трьох прибуткових будинків для Петрококіно.`,
+    textDeutsch: `Das Miethaus von Levit ist ein typisches Beispiel für die Reihenmiethäuser, die in den 1890-er Jahren von Bernardazzi gebaut wurden. Es gibt mehrere dieser Häuser in der Stadt. Nach ihrer Planung und Größe sehen sie ähnlich aus, obwohl jedes von ihnen über eigenartige Elemente verfügt. 
+Das dreistöckige Levit-Haus stellt eine Verbindung von Renaissance und Barock dar, die typisch für die Epoche des Historismus war. Die Fassade ist streng symmetrisch und hat die Länge von sieben Fensterachsen. 
+Das Haus sollte 1891 für Emilia Trabotti gebaut werden. Aber noch vor der Fertigstellung wurde es von dem Kaufmann Levit gekauft. In der Zeitschrift „Der Architekt“ wird das Gebäude als Haus von Levit erwähnt und gilt als erstes Beispiel für ein sogenanntes „Planungsprojekt“, worauf Bernardazzi später mehrmals zurückgriff. So wurde dieses Projekt für drei Miethäuser für Petrokokino verwendet. 
+`,
   },
   {
     id: 'Bernardazzi',
     author: 'Бернардацци Александр Иосифович',
     authorUkrainian: 'Бернардаццi Oлександр Йоcипович',
     authorEnglish: 'Bernardazzi Alexander',
+    authorDeutsch: 'Bernardazzi Alexandr',
     projectName: 'Дома Петрококино',
     projectNameUkrainian: 'Будинки Петрококіно',
     projectNameEnglish: 'Petrokokino Houses',
+    projectNameDeutsch: 'Die Häuser von Petrokokino',
     photos: [
       Petrokokino1,
       Petrokokino2,
@@ -212,15 +229,23 @@ The neighboring house, at 20, Troitska Street, is not so original in architectur
 Будинок на Троїцькій, 18 виконаний у змішанні ренесансу, неороманського стилю і бессарабсько-румунських стилізацій. Крім традиційного ліпного декору на фасаді використано строкату кахельну плитку.
 
 Сусідній будинок, на Троїцькій, 20, не настільки самобутній стилем архітектури, але оформлений пишніше. Фасад витриманий у стилістиці необароко, а арка з кесонованою стелею розписана трафаретними орнаментами. Усередині зберігся елегантний під'їзд із периметральними сходами та заокругленими кутами.`,
+    textDeutsch: `Gebrüder Petrokokino stammten aus einer reichen griechischen kaufmännischen Familie, die eines der größten Vermögen unter den Griechen in Odesa besaß und das erste Kaufhaus in der Stadt gründete. Das Kaufhaus - „das Geschäft, in dem es alle gibt“ - lag in der Griechischen Straße, im Quartal mit geraden Hausnummern zwischen der Richelieu-Straße und Katharinen-Straße und wurde in der Kriegszeit 1944 zerstört.
+Der Architekt Bernardazzi arbeitete oft im Auftrag der Familie Petrokokino und baute für sie neben dem Warenhaus noch drei Miethäuser: in der Marazliievska-Straße 12 und Troitska-Str. 18 und 20. Ungeachtet der architektonischen Unterschiede zwischen diesen Häusern, liegt ihnen - wie auch dem Haus von Levit - das Planungsprojekt zu Grunde. Dabei hat jedes Haus einmalige und erkennbare Elemente.
+Das Haus in der Marazliievska-Str. 12 ist streng symmetrisch und hat an den Außenachsen der zweiten Etage halbrunde Erker, die eine Grundlage für durchbrochene Loggias in der dritten Etage bilden. Innerhalb des Hauses befindet sich ein geräumiges ovales Treppenhaus.   
+Das Haus ist eine Stilmischung von Renaissance, Neuromanik und der bessarabien-rumänischen Stilistik. Neben der traditionellen Stuckdekoration werden an der Fassade auch bunte Kachelplatten verwendet. 
+Das Nachbarhaus in der Troiitska-Str. 20 hat keine so eigenartige Architektur, ist jedoch prachtvoller gebaut. Die Fassade ist im Neobarockstil gestaltet. Der Torbogen mit einer schönen Decke ist mit Ornamenten bemalt. Im Inneren blieb ein elegantes Treppenhaus mit gerundeten Ecken erhalten. 
+`,
   },
   {
     id: 'Bernardazzi',
     author: 'Бернардацци Александр Иосифович',
     authorUkrainian: 'Бернардаццi Oлександр Йоcипович',
     authorEnglish: 'Bernardazzi Alexander',
+    authorDeutsch: 'Bernardazzi Alexandr',
     projectName: 'Водолечебница Абеля и Валика',
     projectNameUkrainian: 'Водолікарня Абеля і Валіка',
     projectNameEnglish: 'Abel and Walik Water Spa',
+    projectNameDeutsch: 'Wasserheilanstalt von Abel und Valik',
     photos: [Hydrotherapy_Valik1, Hydrotherapy_Valik2],
     text: `Бум гидропатической медицины пришелся в Одессе на два последних десятилетия XIX в. В городе массово основывались и строились десятки частных водолечебниц различной степени представительности: Воллернера, Имбера, Рабиновича и Ясиновского, Исаковича и многих других. 
 
@@ -244,15 +269,21 @@ In one of the issues of the Odessa Gazette for 1900 it is possible to meet a men
 
 В одному з номерів Одеського листка за 1900 рік можна зустріти згадку про закладення будівлі:
 "Днями відбулася закладка нового гідропатичного закладу д-ра В. І. Абеля, споруджуваного на розі Преображенської та Єлисаветинської вул. Нова будівля складатиметься з 2 ½ поверхів. Перший поверх буде відведено під гідропатичний заклад, а в другому міститиметься лікарня для нервових хворих із постійними ліжками. Споруджувана водолікарня складатиметься з 2-х класів, по два зали в кожному - для чоловіків і жінок. Другий клас розрахований на задоволення потреб середнього класу, плата за лікування не перевищуватиме 12-ти руб. на місяць. На даху всієї будівлі буде влаштовано великий сад для хворих. Вся споруда обійдеться до 150 тис. рублів і буде готова не пізніше жовтня поточного року`,
+    textDeutsch: `Der Boom der hydropathischen Medizin entfällt in Odesa auf zwei letzte Jahrzehnte des 20. Jahrhunderts. In der Stadt wurden Dutzende von privaten Wasserheilanstalten mit unterschiedlichster Repräsentanz errichtet: die Wasserheilanstalten von Vollerner, Imber, Rabinovych, Yasinovskyi und vielen anderen.  
+Eine bemerkenswerte Stellung unter den Ärzten-Hydropathen hatte in Odesa der bekannte Provisor Valik, der seine Wasserheilanstalt in Kooperation mit Doktor Abel gründete. An der Ecke der Jelisavetinska- und Preobrazhenska-Straße wurde 1902 die prachtvolle Wasserheilanstalt von Abel und Valik im mauretanischen Baustil fertig gebaut. Das Gebäude wurde von Ingenieur Landesmann entworfen und von Bernardazzi wesentlich überarbeitet.   
+In einem Nachrichtenblatt Odesas von 1900 wurde die Grundsteinlegung so beschrieben: „In diesen Tagen fand die Grundsteinlegung der neuen hydropathischen Anstalt von Dr. Abel statt, die an der Kreuzung der Jelisavetinska- und Preobrazhenska-Straße errichtet wird. Das neue Gebäude wird 2,5 Etagen haben. Im Erdgeschoss wird sich die hydropathische Anstalt selbst befinden. Im ersten Obergeschoss wird die Klinik mit Betten für Kranke mit Nervenkrankheiten untergebracht. Die Wasserheilanstalt wird für zwei Klassen mit jeweils zwei Sälen für Männer und Frauen gebaut. Die zweite Klasse richtet sich auf die Bedürfnisse des Mittelstands. Die Behandlungskosten sollen 12 Tausend Rubel im Monat nicht übersteigen. Auf dem Dach des Gebäudes wird ein großer Garten für Kranke eingerichtet. Die Baukosten belaufen sich auf 150 Tausend Rubel. Das Gebäude soll spätestens im Oktober des laufenden Jahres fertig gebaut werden.“ 
+`,
   },
   {
     id: 'Bernardazzi',
     author: 'Бернардацци Александр Иосифович',
     authorUkrainian: 'Бернардаццi Oлександр Йоcипович',
     authorEnglish: 'Bernardazzi Alexander',
+    authorDeutsch: 'Bernardazzi Alexandr',
     projectName: 'Доходный дом Гринчака',
     projectNameUkrainian: 'Прибутковий будинок Грінчака',
     projectNameEnglish: 'Profitable house of Grinchak',
+    projectNameDeutsch: 'Das Haus von Hrynchak ',
     photos: [Grinchenko1, Grinchenko2],
     text: `Доходный дом Гринчака был возведен в 1899 г. на углу Маразлиевской и Базарной. Его архитектура сочетает ренессанс и необарокко. 
 Квартиры в доме предназначались для состоятельных съемщиков, что подчеркивалось не только пышными фасадами, но и довольно богатыми интерьерами.
@@ -275,15 +306,20 @@ The house is famous for housing the Zhvanetsky World Club of Odessits in its cor
 У будинку збереглися просторі під'їзди з мармуровими сходами, геометричні вітражі, стельове ліплення і низка інших важливих артефактів старовини.
 
 Будинок знаменитий тим, що в його кутовому приміщенні розташований Всесвітній Клуб Одеситів ім. Жванецького.`,
+    textDeutsch: `Das Miethaus von Hrynchak wurde 1899 an der Kreuzung der Straßen Marazliievska und Bazarba erbaut. Seine Architektur verbindet die Elemente von Renaissance und Neubarock. Die Mietwohngen wurden für wohlhabende Mieter vorgesehen, was nicht nur durch prachtvolle Fassaden, sondern auch durch recht reiche Inneneinrichtung hervorgehoben wurde.   
+Zur Zeit der Einrichtung war das Gebäude das größte Mehrfamilienhaus in der Marazliievska-Straße und eines der größten in diesem Stadtbezirk. Im Haus blieben geräumige Treppenhäuser mit Marmortreppen, geometrische Glasmalereien, Deckenstuck und weitere alte Elemente erhalten. Das Haus ist dadurch bekannt, dass in seinem Eckraum der internationale Zhvanetskyi-Club der Odessiten seinen Sitz hat. 
+`,
   },
   {
     id: 'Bernardazzi',
     author: 'Бернардацци Александр Иосифович',
     authorUkrainian: 'Бернардаццi Oлександр Йоcипович',
     authorEnglish: 'Bernardazzi Alexander',
+    authorDeutsch: 'Bernardazzi Alexandr',
     projectName: 'Дом Доппельмейера',
     projectNameUkrainian: 'Будинок Доппельмейера',
     projectNameEnglish: 'Doppelmeyer House',
+    projectNameDeutsch: 'Das Haus von Doppelmeyer',
     photos: [Doppelmeistr1, Doppelmeistr2],
     text: `Дом Доппельмейера — один из наиболее характерных образцов романтической эклектики к формам которой Бернардацци часто обращался, свободно и виртуозно смешивая самые неожиданные в своем сочетании стили.
 
@@ -300,6 +336,9 @@ Earlier the house had three stories, but in 1950s it was added by the fourth sto
 Будинок був побудований у 1891-92 рр. на одній з найпрестижніших одеських вулиць - Херсонській (нині. Пастера). Його архітектура - дивовижне поєднання візантійського, псевдоруського та мавританського стилів. 
 
 Раніше будинок мав три поверхи, проте в 1950-ті рр. був надбудований четвертим, що помітно змінило його вигляд. Також будинок може похвалитися найкрасивішими збереженими воротами вулиці, стилізованими під морську астролябію.`,
+    textDeutsch: `Das Haus von Doppelmeyer ist eines der charakteristischen Muster des romantischen Eklektizismus, auf dessen Formen Bernardazzi oft zurückgriff, indem er ganz unerwartet verschiedene Baustile frei und meisterhaft vermischte.      
+Das Haus wurde 1891-1892 in einer der nobelsten Straßen von Odesa – Cherson-Straße (heute Paster-Straße) - gebaut. Seine Architektur stellt eine einmalige Mischung von byzantinischem, pseudorussischem und mauretanischem Stil dar. Das Haus hatte früher drei Stockwerke, wurde aber in den 1950-er Jahren aufgestockt, was seine Ansicht bemerkbar veränderte. Das Haus kann auf das schönste Tor in der ganzen Straße stolz sein, das als Meeresastrolabium stilisiert ist.    
+`,
   },
 
   {
@@ -307,9 +346,11 @@ Earlier the house had three stories, but in 1950s it was added by the fourth sto
     author: 'Бернардацци Александр Иосифович',
     authorUkrainian: 'Бернардаццi Oлександр Йоcипович',
     authorEnglish: 'Bernardazzi Alexander',
+    authorDeutsch: 'Bernardazzi Alexandr',
     projectName: 'Доходный дом Юровского',
     projectNameUkrainian: 'Прибутковий будинок Юровського',
     projectNameEnglish: 'Profitable house of Yurovsky',
+    projectNameDeutsch: 'Das Miethaus von Yurovskyi',
     photos: [Mavrokordato1, Mavrokordato2],
     text: `Огромный высокоэтажный, по меркам своей эпохи, дом на Греческой, 50 строился в 1897 г. по заказу купца Н. Юровского. 
 
@@ -339,15 +380,20 @@ The facade is expressive and very presentable, the architecture combines Renaiss
 Забудова ділянки складається з лицьового будинку в чотири поверхи і внутрішньодворового флігеля - у три. Обидві будівлі містили квартири високого рівня комфорту й оснащення, що призначалися для заможних верств населення. 
 
 Лицьовий фасад виразний і дуже представницький, архітектура поєднує ренесанс і бароко. У будинку було використано кілька передових технічних рішень, наприклад, ліфт і парове опалення.`,
+    textDeutsch: `Das riesengroße mehrstöckige Gebäude, die in der Griechischen Straße 50 liegt, wurde 1897 im Auftrag des Kaufmanns Yurovskyi gebaut. In einer Erscheinung der Zeitschrift „Baufachmann“ von 1987 wurde als Architekt Landesmann genannt. Die Mitwirkung von Bernardazzi an diesem Bauprojekt ist aber mehr als offensichtlich: in der Gebäudearchitektur sind zahlreiche Elemente und Lösungen zu beobachten, die für Bernardazzi charakteristisch waren.  Einige davon stellen sogar Kopien aus früheren Projekten von Bernardazzi dar. So zum Beispiel ist dekorative Arkatur im dritten Stock fast identisch der Arkatur an der Fassade des Petrokokino-Hauses in der Troitska-Straße 20.
+Das Grundstück wurde mit einem vierstöckigen Hauptgebäude und einem dreistöckigen Hofflügel bebaut. In beiden Gebäuden wurden hochkomfortable Wohnungen für wohlhabende Mieter eingerichtet.  Die Hauptfassade wurde sehr ausdrucksvoll und repräsentativvoll gestaltet. Seine Architektur verbindet die Elemente von Renaissance und Barock. Im Haus wurden fortschrittliche technische Lösungen realisiert: der Aufzug und die Dampfheizung. 
+`,
   },
   {
     id: 'Bernardazzi',
     author: 'Бернардацци Александр Иосифович',
     authorUkrainian: 'Бернардаццi Oлександр Йоcипович',
     authorEnglish: 'Bernardazzi Alexander',
+    authorDeutsch: 'Bernardazzi Alexandr',
     projectName: 'Портал лавки Асвадуровых',
     projectNameUkrainian: 'Портал крамниці Асвадурових',
     projectNameEnglish: 'Aswadurov"s shop portal',
+    projectNameDeutsch: 'Das Ladenportal von Asvadurovs',
     photos: [Asvadurov1],
     text: `Асвадуровы — знаменитая купеческая семья армянского происхождения, наиболее успешные и известные табачные фабриканты дореволюционной Одессы (наровне с Поповыми и Дурьянами).
 
@@ -371,15 +417,20 @@ The portal was decorated not only with Italian marble of the best varieties, but
 З середини 1890-х магазин Асвадурових влаштувався в легендарному будинку Вагнера, і з боку Катерининської вхід до нього позначався розкішним мармуровим порталом, виконаним 1896 року за ескізами Бернардацці в майстерні Менціоне.
 
 В оформленні порталу використовували не тільки італійський мармур найкращих сортів, а й рідкісний рожевий граніт, а також скло зі світлотравленням.`,
+    textDeutsch: `Asvadurovs ist eine bekannte kaufmännische Familie der armenischen Abstammung und die erfolgreichsten Zigarettenhersteller in der Odesa vor der Revolution. (Sie stehen in einer Reihe mit Popovs und Durians). In Odesa gehörte ihnen die Zigarettenfabrik in der Uspenska-Straße und zwei große Miethäuser. 
+Ab Mitte der 1890-er Jahren befand sich das Geschäft von Asvadurovs im legendären Wagner-Haus. Vonseiten der Katharinen-Straße wurde der Eingang ins Geschäft mit einem prachtvollen Marmorportal gekennzeichnet, das 1896 nach den Zeichnungen von Bernardazzi in der Werkstatt von Mencione gefertigt wurde. Bei der Gestaltung des Eingangsportals wurde nicht nur der beste italienische Marmor verwendet, sondern auch seltener Rosagranit sowie die Fenster mit Wiederspiegelung.    
+`,
   },
   {
     id: 'Bernardazzi',
     author: 'Бернардацци Александр Иосифович',
     authorUkrainian: 'Бернардаццi Oлександр Йоcипович',
     authorEnglish: 'Bernardazzi Alexander',
+    authorDeutsch: 'Bernardazzi Alexandr',
     projectName: 'Здание Новой биржи',
     projectNameUkrainian: 'Будівля Нової біржі',
     projectNameEnglish: 'The New Exchange building',
+    projectNameDeutsch: 'Die Neue Börse ',
     photos: [
       New_exchange1,
       New_exchange2,
@@ -447,15 +498,26 @@ Translated with www.DeepL.com/Translator (free version)`,
 Наступного ж 1900 року до величезної кількості унікальних архітектурних деталей будівлі додалося мармурове погруддя О. О. Бернардацці, створене скульптором Борисом Васильовичем Едуардсом і встановлене в лоджії біля центрального входу в ознаменування п'ятдесятирічного ювілею творчої діяльності архітектора.
 
 З 1937 року в будівлі Біржі розташована Одеська обласна Філармонія.`,
+    textDeutsch: `Gegen Ende des 20. Jahrhunderts konnte das Gebäude der Alten Börse, die 1820-1830 auf dem Primorkij Boulevard errichtet wurde, die Bedürfnisse der kaufmännischen Gemeinschaft von Odesa nicht mehr befriedigen. Im Laufe von mehreren Jahrzehnten veralteten sich technische Anlagen des Gebäudes, es wurde eng und für den regelmäßigen und groß angelegten Handel in der Hafenstadt wenig geeignet. Im Ergebnis wurde das Gebäude an die Stadtduma überreicht. 1981 wurde ein internationaler Wettbewerb für die Planung eines neuen Börsengebäudes ausgerufen. Schon im nächsten Jahr wurden aus 30 eingereichten Wettbewerbsarbeiten die drei besten ausgewählt, und zwar die Projekte von V. Prokhasko, G. Landau-Gugenteger und J. Dmytrenko. Der Architekt Dmytrenko gewann den Hauptpreis, konnte aber den Ansprüchen der aktiven städtischen Gemeinschaft in vollem Maße nicht gerecht werden. Im Jahre 1894 wurde jedoch seine Planung für die Umsetzung empfohlen. Aber davor wurde sie von Alexander Bernardazzi überarbeitet, der nun als Hauptarchitekt der Neuen Börse gilt, die an der Kreuzung der ehemaligen Italienischen Straße und der Polizeistraße liegt. 
+Errichtet im Renaissancestil von Florenz und der venezianischen Gotik eiferte der Handelstempel von Odesa mit den schönsten privaten Villas des Adels. Neben seiner Handelsfunktion (Handelsplätze, kaufmännische Verwaltung) wurde der Börsensaal auch für repräsentative Zwecke genutzt und diente zur Durchführung von Bällen, Konzerten der tourenden Prominenz und Versammlungen lokaler Autoren und Wissenschaftler. Die Verzierung des Gebäudes war sehr beeindruckend. In der Börse selbst wurden wichtige Lokationen gebildet, die auch heute noch als Visitenkarte der Stadt gelten:     
+-	die riesengroße, mit einer Betonkuppel gedeckte Loggia an der Paradentreppe vonseiten der Polizeistraße. In dieser Loggia befinden sich zwei rostrale Säulen, die Bernardazzi sehr eigenartig einbaute;
+-	der Innenhof der Brotbörse, bekannt auch als Italienischer Hof, an dessen Architektur ein weiterer herausragender Architekt von Odesa, Vladyslav Dombrovskyi mitwirkte;
+-	der Hauptsaal mit einer prunkvollen Decke, den Glasfensterbildern und einer hohen Loggia mit Laternen. An der Gestaltung des Börsensaals waren die Bildhauer M. Molinari, L. Mentsione und B. Eduards beteiligt. Die Wände wurden von dem Maler N. Karazin aus St. Petersburg in Form von Tapeten bemalt und mit dem Wandbild des florentinischen Malers Caccioli geschmückt;
+-	die große Vorhalle im Gebäudesockel unter dem Hauptsaal, die nicht nur als Alternative für eine Loggia diente, um den Zugang des Publikums zum Hauptsaal zu erleichtern, sondern auch als Kleiner Handelssaal genutzt wurde.      
+Im nächsten Jahr (1900) gesellte sich zu vielen einmaligen architektonischen Details die Marmorbüste von A. Bernardazzi, der von dem Bildhauer Borys Eduards geschaffen und anlässlich des 50-jährigen Jubiläums der Tätigkeit des Architekten in der Loggia am Zentraleingang aufgestellt wurde.  
+Seit 1937 beherbergt die Börsengebäude die Philharmonie von Odesa. 
+`,
   },
   {
     id: 'Bernardazzi',
     author: 'Бернардацци Александр Иосифович',
     authorUkrainian: 'Бернардаццi Oлександр Йоcипович',
     authorEnglish: 'Bernardazzi Alexander',
+    authorDeutsch: 'Bernardazzi Alexandr',
     projectName: 'Здание Общества Взаимного кредита',
     projectNameUkrainian: 'Будівля Товариства Взаємного кредиту',
     projectNameEnglish: 'Mutual Credit Society building',
+    projectNameDeutsch: 'Die Gesellschaft für gegenseitige Kredithilfe ',
     photos: [
       Mutual_Credit_Society1,
       Mutual_Credit_Society2,
@@ -487,15 +549,21 @@ The most impressive of the technical solutions is the massive foundation, in the
 Таке рішення не властиве для Бернардацці, який віддавав перевагу простішим, одно- і двооб'ємним компонуванням будівель.
 
 Найбільш вражаючим з технічних рішень є масивний фундамент, в опори якого були врізані сейфи.`,
+    textDeutsch: `Das imposante Gebäude der Gesellschaft für gegenseitige Kredithilfe wurde von dem Architekten Bernardazzi im Jahre 1903 unter Einfluss traditioneller Formen der Florenzrenaissance errichtet. Es ist eines der wenigen Bankgebäude im Portfolio des Architekten. 
+Die Architektur dieses Gebäudes hatte einen großen Einfluss auf die Gestaltung des Gebäudeensembles an der Kreuzung der Puschkin-Straße und der Griechischen Straße. 1905 baute der Architekt Dmytrenko auf der gegenüberliegenden Seite der Griechischen Straße das Gebäude der Erfassungsbank, das mit dem Bauwerk von Bernardazzi ein Ensemble darstellt. Die beiden Gebäude dienen als eigenartige Propyläen für die Einfahrt in den Geschäftsstadtteil Odesas. 
+Das Gebäude ist dreidimensioniert und besteht aus einem höheren Eckteil mit kleinen Operationssälen und den niedrigeren Flügeln, die sich über die Puschkin-Straße und die Griechische Straße erstrecken. Diese Lösung ist für Bernardazzi nicht typisch, weil er einfachere ein- und zweidimensionale Baukonzepte bevorzug. Als technische Lösung beeindruckt das massive Fundament, in dessen Stützen Tresors eingebaut wurden.  
+`,
   },
   {
     id: 'Bernardazzi',
     author: 'Бернардацци Александр Иосифович',
     authorUkrainian: 'Бернардаццi Oлександр Йоcипович',
     authorEnglish: 'Bernardazzi Alexander',
+    authorDeutsch: 'Bernardazzi Alexandr',
     projectName: 'Реформатская церковь',
     projectNameUkrainian: 'Реформатська церква',
     projectNameEnglish: 'Reformed Church',
+    projectNameDeutsch: 'Die Reformierte Kirche ',
     photos: [
       Reformed_Church1,
       Reformed_Church2,
@@ -576,15 +644,23 @@ The facade is expressive and very presentable, the architecture combines Renaiss
 За радянських часів храм закрили, а будівлю, за проектом архітектора А. Мінкуса, перебудували на ляльковий театр.
 
 На рубежі 1990-2000-х рр. за фінансової підтримки Пресвітеріанської церкви Америки, церкву було відновлено. У 2002 році в храмі було встановлено найкращий на Півдні України орган.`,
+    textDeutsch: `Neben dem alten Bahnhof, der nicht erhalten blieb, steht die Reformierte Kirche in der Cherson-Straße (heute Paster-Straße) als Muster der Zusammenarbeit von Bernardazzi und dem bekannten Architekten Schroeter aus St. Petersburg. Bernardazzi erhielt die prämierten Wettbewerbsprojekte für beide Gebäude von Schroeter, entwickelte sie weiter und leitete die Bauarbeiten in Odesa. Die Planung der Kirche datiert noch im Jahre 1882, als Schroeter in der Zeitschrift „Architekt“ die ersten Pläne und Skizzen der künftigen Reformierten Kirche für Odesa veröffentlichte. Die Bauarbeiten selbst wurden viel später 1895-1896 durchgeführt.  
+Der Bau wurde aus einem Sonderfond finanziert, den die Pfarrei 1890 auf Initiative des Pfarrers Kornmann anlegte. Neben Bernardazzi beteiligte sich an der Errichtung der Kirche auch der bekannte Architekt Skveder.   
+Das effektvolle und zierliche Tempelhaus baut auf die Formen der nördlichen Renaissance mit Elementen der Neugotik und stellt ein dreistöckiges Gebäude dar. Im Erdgeschoß befanden sich die Maschinen für die Dampfheizung, im ersten Obergeschoss lag die Wohnung des Pfarrers und im dritten Obergeschoss der Gebetsraum.  
+Im Jahre 1900 wurden die Innenarbeiten in der Kirche abgeschlossen und die Kirche wurde eingeweiht. In der Sowjetzeit wurde die Kirche geschlossen. Das Gebäude selbst wurde nach dem Projekt des Architekten Minus in ein Puppentheater umgebaut. 
+In den 1990-2000-er Jahren wurde die Kirche mit finanzieller Unterstützung der amerikanischen Presbyterianischen Kirche wiederhergestellt. 2022 wurde in der Kirche die beste Orgel im Süden der Ukraine installiert.
+`,
   },
   {
     id: 'Torricelli',
     author: 'Торичелли Георгий Иванович',
     authorUkrainian: 'Торічеллі Георгій Іванович',
     authorEnglish: 'Torricelli Georgiy',
+    authorDeutsch: 'Torricelli Georgiy',
     projectName: 'Здание Английского клуба',
     projectNameUkrainian: 'Будівля Англійського клубу',
     projectNameEnglish: 'English Club building',
+    projectNameDeutsch: 'Der Englische Club',
     photos: [English_club1, English_club2],
     text: `Изящное полутораэтажное здание Английского клуба относится к позднему творчеству Торичелли и проектировалось им в 1840-е гг. параллельно со строительством комплекса лавок Пале-Рояля по соседству. 
 
@@ -608,15 +684,21 @@ The style of the building is executed in the canons of early eclecticism and com
 Англійський клуб встигли побудувати, але він залишився окремою будівлею, вирваною з контексту задумів Торічеллі, але добре гармонує зі своїм історичним архітектурним оточенням періоду класицизму.
 
 Стиль будівлі виконаний у канонах ранньої еклектики і поєднує в собі як елементи класицизму й ампіру, так і явні ренесансні риси. Розташовуючись на похилому рельєфі, будівля має змінну поверховість від одного поверху з боку Театрального саду до півтора поверхів з боку Думської площі.`,
+    textDeutsch: `Das zierliche eineinhalbstöckige Gebäude des Englischen Clubs gehört der späten Schaffensperiode von Torricelli an. Er entwarf dieses Haus in den 1840-er Jahren gleichzeitig mit dem Bau der Läden von Palais-Royal in der Nähe. Der Englische Club sollte ein unabdingbarer Bestandteil dieses Ensembles werden und den Theaterplatz von der Meeresseite abschließen. Der Bau des Palais-Royal wurde nicht beendet, und der Theaterplatz erhielt keine Paradenumrahmung.
+Der Englische Club konnte fertig gebaut werden; er blieb jedoch als Einzelgebäude stehen, das aus dem Konzept von Toricelli weggerissen wurde. Das Gebäude schafft jedoch Harmonie mit seiner historischen Bauumgebung aus der Zeit des Klassizismus.
+Das Gebäude wurde im Stil des früheren Eklektizismus gebaut: Es verbindet Elemente von Klassizismus und Empire und weist klare Renaissancezüge aus. Das Haus liegt in einer geneigten Landschaft und hat unterschiedliche Etagenzahl: eine Etage vonseiten des Theatergartens und eineinhalb Etagen vonseiten des Duma-Platzes.   
+`,
   },
   {
     id: 'Torricelli',
     author: 'Торичелли Георгий Иванович',
     authorUkrainian: 'Торічеллі Георгій Іванович',
     authorEnglish: 'Torricelli Georgiy',
+    authorDeutsch: 'Torricelli Georgiy',
     projectName: 'Дом Калио (Камо)',
     projectNameUkrainian: 'Будинок Каліо (Камо)',
     projectNameEnglish: 'Calyo House (Camo)',
+    projectNameDeutsch: 'Das Haus von Luka Kalio',
     photos: [Kamo1, Kamo2],
     text: `Дом Калио (Камо) — выдающийся образец одесского ампира и один из наиболее ярких домов авторства архитектора Торичелли. На момент строительства в 1834 г. дом располагался на тогдашней окраине города и его массивный призматический объем, занимающий ныне угол Тираспольской и Нежинской на фоне малоэтажной застройки того времени выглядел особенно внушительно.
 
@@ -634,15 +716,19 @@ In 1893 it housed a second-class hotel Marcel, well known to many Odessans in th
 Елегантно оформлена будівля цінується своїм інтер'єром із трипролітними парадними сходами і напівротондою залу на другому поверсі.
 
 У 1893 р. тут розмістився другокласний готель "Марсель", добре відомий багатьом одеситам передреволюційних років, про який деколи згадували в літературі.`,
+    textDeutsch:
+      'Das Haus von Kalio (Kamo) ist ein herausragendes Beispiel für den Empirestil in Odesa und eines der schönsten Häuser des Architekten Torricelli. Zur Zeit seiner Errichtung 1834 lag das Haus am damaligen Stadtrand. Das massive prismatische Volumen dieses Gebäudes, das heute an der Kreuzung der Straßen Tiraspolska und Nizhynska liegt, sah vor dem Hintergrund der damaligen niedrigen Bebauung besonders monumental aus. Das elegant gestaltete Gebäude beherbergt prachtvolle Inneneinrichtung mit einer Paradentreppe und einer Halbrotonde im ersten Obergeschoss. 1893 befand sich hier das Hotel der 2. Klasse „Marseille“, das vielen Einwohnern Odesas in der vorrevolutionären Zeit gut bekannt war und gelegentlich in der Literatur erwähnt wurde.',
   },
   {
     id: 'Torricelli',
     author: 'Торичелли Георгий Иванович',
     authorUkrainian: 'Торічеллі Георгій Іванович',
     authorEnglish: 'Torricelli Georgiy',
+    authorDeutsch: 'Torricelli Georgiy',
     projectName: 'Дом Нарольского',
     projectNameUkrainian: 'Будинок Нарольського',
     projectNameEnglish: 'Narolsky House',
+    projectNameDeutsch: 'Das Haus von Narolskyi',
     photos: [Narolskiy1, Narolskiy2, Narolskiy3, Narolskiy4],
     text: `Дом Нарольского важен не только, как этап творчества Торичелли в начале 1830-х гг., но и как один из самых ярких образцов городского особняка Одессы того времени.
 
@@ -660,15 +746,20 @@ The most striking part of the house is the main staircase which is designed in t
 Будівля виконана в рідкісному для міста стилі палладіанства. Специфіка англійської класичної школи простежується в підкреслено монументальних порталах на тлі геометричних лиштв вікон і повної відсутності ліпних елементів на фасаді.
 
 Найяскравіша частина будинку - парадні сходи, вирішені у вигляді безперервної округленої дуги з першого поверху на другий. Освітлення вирішено унікальним для світських будівель способом - ліхтар виконаний у вигляді купольного барабана з периметральним доступом світла. Така система, традиційна для православних церков, у простому житловому будинку застосована один раз за всю історію міста.`,
+    textDeutsch: `Das Haus von Narolskyi markiert eine Etappe im Schaffen von Torricelli Anfang der 1830-er Jahre und ist eines der schönsten Beispiele für eine Stadtvilla im damaligen Odesa. Das Gebäude ist in dem Palladio-Stil gebaut, der in der Stadt selten zu treffen ist. Die Eigenart der englischen klassizistischen Schule erkennt man an den monumentalen Portalen und geometrischen Fensterverkleidungen sowie an fehlenden der Stuckelementen an der Fassade. 
+Das schönste Element ist die Paradentreppe, die in Form eines ununterbrochenen gerundeten Bogens vom Erdgeschoß zum ersten Obergeschoß führt. Die Beleuchtung ist ebenfalls für die Profanarchitektur einmalig: Die Laterne ist in Form eines Kuppeltrommels mit dem Lichtzugang gebaut. Dieses System ist traditionell für orthodoxe Kirchen. In einem einfachen Wohnhaus kommt es nur einmal in der ganzen Stadtgeschichte vor.   
+`,
   },
   {
     id: 'Torricelli',
     author: 'Торичелли Георгий Иванович',
     authorUkrainian: 'Торічеллі Георгій Іванович',
     authorEnglish: 'Torricelli Georgiy',
+    authorDeutsch: 'Torricelli Georgiy',
     projectName: 'Дом Хорвата (Толстых)',
     projectNameUkrainian: 'Будинок Хорвата (Толстих)',
     projectNameEnglish: 'House of Horvath (Tolstoy',
+    projectNameDeutsch: 'Das Haus von Khorvat / Tolstois',
     photos: [Tolstoy1, Tolstoy2, Tolstoy3, Tolstoy4],
     text: `Усадьба Толстых — архитектурный комплекс, который включает в себя 3 здания: двухэтажный особняк с 12 комнатами, служебное крыло и картинную галерею. 
 
@@ -704,5 +795,10 @@ Since the 1930s, it has been home to the Odessa House of Scientists`,
 Ступінь збереженості й автентичності будинку сьогодні можна вважати найвищим в Одесі.
 
 З 1930-х рр. тут розташовується Одеський Будинок учених.`,
+    textDeutsch: `Das Haus von Tolstois ist ein Architekturensemble, das sich aus drei Gebäuden zusammensetzt: einem zweistöckigen Haus mit 12 Zimmern, einem Dienerflügel und einer Gemäldegalerie.   
+Das Haus, dessen Fassade sich auf den Militärsteig richtet, wurde in den 1830-er Jahren von den Architekten Boffo und Torricelli für den Kammerjunker Nikolai Khorvat im Stil des russischen Klassizismus gebaut.
+In den 1860-er Jahren befand sich das Haus im Besitz des griechischen Generalkonsuls Cicini; Später kaufte das Haus die Familie des Grafen Tolstoi, die hier bis zur Revolution wohnte und den ganzen Gebäudekomplex weiter ausbauten. 
+Das ehemalige Haus von Khorvat ist ein klassisches Beispiel für das Wohnhaus eines reichen Adels von Odesa in der ersten Hälfte des 19. Jh. Eine ungewöhnliche Lösung stellt die Orientierung des Hauses mit der Hauptfassade zum Garten dar, wobei die Seitenfassade zur Straße gewendet ist. Dieses Haus blieb sehr gut erhalten und hat den besten Erhaltungsgrad in Odesa. Seit 1930-er Jahren befindet sich hier das Haus der Wissenschaftler von Odesa. 
+`,
   },
 ];

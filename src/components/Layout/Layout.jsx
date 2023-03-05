@@ -61,9 +61,9 @@ export const Layout = () => {
               className={`${css.buttonLang} ${
                 active === 'link3' ? css.active : ''
               }`}
-              onClick={() => changeLanguage('ru', 'link3')}
+              onClick={() => changeLanguage('de', 'link3')}
             >
-              RU
+              DE
             </button>
           </div>
         </nav>
